@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	#Parties Stuff
+
+	spriteType = {
+		name = "GFX_ideology_PRU_democratic_group"
+		texturefile = "gfx/interface/ideologies/pru_cc.dds"		
+	}
+    spriteType = {
+		name = "GFX_ideology_CHL_fascism_group"
+		texturefile = "gfx/interface/ideologies/chl_vps.dds"		
+	}		
+	
+}
