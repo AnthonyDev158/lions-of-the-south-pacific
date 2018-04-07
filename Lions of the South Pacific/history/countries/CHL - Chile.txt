@@ -88,14 +88,13 @@ set_politics = {
 		
 		communism = {
 			popularity = 3
-			#banned = no #default is no
 		}
 	}
 	
 	ruling_party = democratic
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -108,10 +107,11 @@ create_country_leader = {
 		political_dancer
 	}
 }
+
 create_country_leader = {
 	name = "Bartolomé Blanche"
 	desc = "POLITICS_BARTOLOME_BLANCHÉ_DESC"
-	picture = "GFX_Portrait_chile_arturo_alessandri"
+	picture = "Bartolomé_Blanche"
 	expire = "1965.1.1"
 	ideology = moderatism
 	traits = {
