@@ -111,13 +111,13 @@ create_country_leader = {
 create_country_leader = {
 	name = "Bartolomé Blanche"
 	desc = "POLITICS_BARTOLOME_BLANCHÉ_DESC"
-	picture = "Bartolomé_Blanche"
+	picture = "Bartolomé_Blanche.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
 	traits = {
 		staunch_constitutionalist
 	}
-]
+}
 
 create_country_leader = {
 	name = "Jorge González von Marées"
@@ -174,5 +174,30 @@ create_country_leader = {
 		traits = {
 			#
 		}
+	}
+}
+
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Capitán O`Brien Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Serrano Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
 	}
 }
