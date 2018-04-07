@@ -79,15 +79,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 98
+			popularity = 95
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 2
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 3
 			#banned = no #default is no
 		}
 	}
@@ -105,9 +105,19 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		#
+		political_dancer
 	}
 }
+create_country_leader = {
+	name = "Bartolomé Blanche"
+	desc = "POLITICS_BARTOLOME_BLANCHÉ_DESC"
+	picture = "GFX_Portrait_chile_arturo_alessandri"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		staunch_constitutionalist
+	}
+]
 
 1939.1.1 = {
 	set_politics = {
