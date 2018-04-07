@@ -18,7 +18,7 @@ set_technology = {
 }
 set_country_flag = monroe_doctrine
 
-set_convoys = 35
+set_convoys = 20
 
 1939.1.1 = {
 
@@ -79,15 +79,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 93
+			popularity = 98
 		}
 
 		fascism = {
-			popularity = 3
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 4
+			popularity = 2
 			#banned = no #default is no
 		}
 	}
@@ -105,7 +105,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		Political Dancer
 		#
 	}
 }
@@ -115,22 +114,19 @@ create_country_leader = {
 
 		parties = {
 			democratic = { 
-				popularity = 84
+				popularity = 100
 			}
 
 			fascism = {
-				popularity = 1
+				popularity = 0
 			}
 			
 			communism = {
-				popularity = 15
+				popularity = 0
 				#banned = no #default is no
 			}
 		}
-		neutrality = { 
-			popularity = 34
-		}
-	}
+		
 		ruling_party = democratic
 		last_election = "1938.10.25"
 		election_frequency = 48
@@ -146,74 +142,5 @@ create_country_leader = {
 		traits = {
 			#
 		}
-	}
-}
-
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bartolomé Blanche"
-	desc = "POLITICS_BARTOLOMÉ_BLANCHE_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		Staunch Constitutionalist
-		#
-	}
-}
-create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Escudero Oscar Otárola"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	traits = { trait_mountaineer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Capitán O`Brien Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Serrano Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
 	}
 }
