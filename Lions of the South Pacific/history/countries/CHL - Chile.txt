@@ -110,7 +110,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Bartolomé Blanche"
-	desc = "POLITICS_BARTOLOME_BLANCHE_DESC"
+	desc = "POLITICS_BARTOLOMÉ_BLANCHE_DESC"
 	picture = "Bartolome_Blanche.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
@@ -121,7 +121,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZALEZ_VON_MAREES_DESC"
+	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "Jorge_Gonzalez_von_Marees.dds"
 	expire = "1965.1.1"
 	ideology = nazism
