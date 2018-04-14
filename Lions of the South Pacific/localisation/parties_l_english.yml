@@ -513,7 +513,7 @@
  PRU_neutrality_party_long:0 "Congreso Constituyente del Perú"
  CHL_neutrality_party:0 "JMCh"
  CHL_neutrality_party_long:0 "Junta Militar de Chile"
- CHI_fascism_party:0 "VPS"
+ CHL_fascism_party:0 "VPS"
  CHL_fascism_party_long:0 "Vanguardia Popular Socialista"
  CHL_democratic_party:0 "PL/PR"
  CHL_democratic_party_long:0 "Partido Liberal / Partido Radical"
