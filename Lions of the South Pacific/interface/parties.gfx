@@ -6,7 +6,11 @@ spriteTypes = {
 		name = "GFX_ideology_PRU_democratic_group"
 		texturefile = "gfx/interface/ideologies/pru_cc.dds"		
 	}
-    spriteType = {
+	spriteType = {
+		name = "GFX_ideology_PRU_neutrality_group"
+		texturefile = "gfx/interface/ideologies/pru_junta.dds"		
+	}    
+	spriteType = {
 		name = "GFX_ideology_CHL_fascism_group"
 		texturefile = "gfx/interface/ideologies/chl_vps.dds"		
 	}		
