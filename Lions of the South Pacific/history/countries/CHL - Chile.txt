@@ -166,6 +166,16 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
+		name = "Gustavo Ross"
+		desc = "POLITICS_GUSTAVO_ROSS_DESC"
+		picture = "Gustavo_Ross.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	create_country_leader = {
 		name = "Pedro Aguirre Cerda"
 		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
 		picture = "Pedro_Aguirre_Cerda.dds"
