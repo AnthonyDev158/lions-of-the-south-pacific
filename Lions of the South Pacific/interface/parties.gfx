@@ -40,6 +40,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_BOL_neutrality_group"
-		texturefile = "gfx/interface/ideologies/BOL_army.dds"		
-	}		
+		texturefile = "gfx/interface/ideologies/BOL_army.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_ideology_BOL_communism_group"
+		texturefile = "gfx/interface/ideologies/BOL_communism.dds"		
+	}			
 }

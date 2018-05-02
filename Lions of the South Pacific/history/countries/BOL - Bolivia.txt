@@ -123,6 +123,16 @@ create_country_leader = {
         #
 	}
 }
+create_country_leader = {
+	name = "José Antonio Arze"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "Arze.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
 1939.1.1 = {
 	set_politics = {
 
