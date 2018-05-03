@@ -1,4 +1,4 @@
-﻿spriteTypes = {
+spriteTypes = {
 
 	#Parties Stuff
 
@@ -26,15 +26,11 @@
 		name = "GFX_ideology_CHL_communism_group"
 		texturefile = "gfx/interface/ideologies/chl_pcch.dds"		
 	}		
-	spriteType = {
+		spriteType = {
 		name = "GFX_ideology_CHL_democratic_group"
 		texturefile = "gfx/interface/ideologies/chl_liberal.dds"		
 	}		
-	spriteType = {
-	    name = "GFX_ideology_CHL_radical_group"
-	    texturefile = "gfx/interface/ideologies/chl_radical.dds"
-	}
-	spriteType = {
+		spriteType = {
 		name = "GFX_ideology_CHL_neutrality_group"
 		texturefile = "gfx/interface/ideologies/chl_junta.dds"		
 	}
@@ -54,13 +50,13 @@
 	spriteType = {
 		name = "GFX_ideology_BOL_democratic_group"
 		texturefile = "gfx/interface/ideologies/BOL_liberal.dds"		
-	}	
-	spriteType = {
+	}		
+		spriteType = {
 		name = "GFX_ideology_ECU_democratic_group"
 		texturefile = "gfx/interface/ideologies/ECU_socialist.dds"		
 	}	
-spriteType = {
+			spriteType = {
 		name = "GFX_ideology_ECU_neutrality_group"
 		texturefile = "gfx/interface/ideologies/ECU_army.dds"		
-	}			
+	}	
 }
