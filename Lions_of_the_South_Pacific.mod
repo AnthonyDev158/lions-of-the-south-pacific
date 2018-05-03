@@ -1,4 +1,4 @@
-name="Lions of the South Pacific"
+﻿name="Lions of the South Pacific"
 path="mod/Lions of the South Pacific/"
 tags={
 	"Alternative History"

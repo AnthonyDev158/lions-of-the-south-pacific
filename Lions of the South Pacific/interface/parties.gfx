@@ -1,4 +1,4 @@
-spriteTypes = {
+﻿spriteTypes = {
 
 	#Parties Stuff
 
@@ -26,11 +26,15 @@ spriteTypes = {
 		name = "GFX_ideology_CHL_communism_group"
 		texturefile = "gfx/interface/ideologies/chl_pcch.dds"		
 	}		
-		spriteType = {
+	spriteType = {
 		name = "GFX_ideology_CHL_democratic_group"
 		texturefile = "gfx/interface/ideologies/chl_liberal.dds"		
 	}		
-		spriteType = {
+	spriteType = {
+	    name = "GFX_ideology_CHL_radical_group"
+	    texturefile = "gfx/interface/ideologies/chl_radical.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_CHL_neutrality_group"
 		texturefile = "gfx/interface/ideologies/chl_junta.dds"		
 	}
