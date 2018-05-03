@@ -52,7 +52,7 @@
 		texturefile = "gfx/interface/ideologies/BOL_liberal.dds"		
 	}	
 	spriteType = {
-		name = "GFX_ideology_ECU_marxist_group"
+		name = "GFX_ideology_ECU_democratic_group"
 		texturefile = "gfx/interface/ideologies/ECU_socialist.dds"		
 	}	
     spriteType = {
