@@ -23,12 +23,8 @@ country_event = {
 	    name = chile.1.a
 		ai_chance = {
 			factor = 51
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
 		}
-		set_party_name = { ideology = democratic long_name = CHL_radical_party name = CHL_radical_party }
+		set_party_name = { ideology = democratic long_name = CHL_radical_party_long name = CHL_radical_party }
 	    create_country_leader = {
 		    name = "Pedro Aguirre Cerda"
 		    desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
@@ -45,6 +41,9 @@ country_event = {
 	    name = chile.1.b
 		ai_chance = {
 			factor = 49
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
 			}
 		}
         create_country_leader = {
