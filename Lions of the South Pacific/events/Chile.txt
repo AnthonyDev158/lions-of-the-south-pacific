@@ -1,0 +1,64 @@
+###########################
+#Chile Events
+###########################
+
+add_namespace = chile
+
+# The 1938 Chilean Elections dab
+country_event = {
+    id = chile.1
+	title = chile.1.t
+	desc = chile.1.d
+	picture =
+	
+    is_triggered_only = yes
+	
+	trigger = {
+		tag = CHL
+		date > 1938.10.1
+		date < 1938.11.13
+	}
+	
+	option = {
+	    name = chile.1.a
+		ai_chance = {
+			factor = 51
+		}
+	    create_country_leader = {
+		    name = "Pedro Aguirre Cerda"
+		    desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
+		    picture = "Pedro_Aguirre_Cerda.dds"
+		    expire = "1965.1.1"
+		    ideology = socialism
+		    traits = {
+			    #
+			}
+		}
+	}
+	
+	option = {
+	    name = chile.1.b
+		ai_chance = {
+			factor = 49
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+        set_party_name = { ideology = democratic long_name = CHL_radical_party_long name = CHL_radical_party }
+        create_country_leader = {
+		    name = "Gustavo Ross"
+		    desc = "POLITICS_GUSTAVO_ROSS_DESC"
+		    picture = "Gustavo_Ross.dds"
+		    expire = "1965.1.1"
+		    ideology = conservatism
+		    traits = {
+			    #
+			}
+		}
+	}
+}
+        		
+
+	
+	
