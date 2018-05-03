@@ -31,6 +31,10 @@
 		texturefile = "gfx/interface/ideologies/chl_liberal.dds"		
 	}		
 	spriteType = {
+	    name = "GFX_ideology_CHL_radical_group"
+	    texturefile = "gfx/interface/ideologies/chl_radical.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_CHL_neutrality_group"
 		texturefile = "gfx/interface/ideologies/chl_junta.dds"		
 	}
@@ -59,4 +63,5 @@
 		name = "GFX_ideology_ECU_neutrality_group"
 		texturefile = "gfx/interface/ideologies/ECU_army.dds"		
 	}			
+
 }
