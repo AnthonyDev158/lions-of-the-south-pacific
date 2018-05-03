@@ -192,8 +192,8 @@ create_country_leader = {
 	skill = 2
 }
 create_corps_commander = {
-	name = "Bernhard Bechler"
-	picture = ".dds"
+	name = "René Schneider Chereau"
+	picture = "Rene.dds"
 	traits = { }
 	skill = 2
 }
