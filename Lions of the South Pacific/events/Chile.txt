@@ -9,7 +9,7 @@ country_event = {
     id = chile.1
 	title = chile.1.t
 	desc = chile.1.d
-	picture =
+	picture = GFX_report_events_chile_chilean_elections
 	
     is_triggered_only = yes
 	
