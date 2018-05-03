@@ -63,4 +63,9 @@ spriteTypes = {
 		name = "GFX_ideology_ECU_neutrality_group"
 		texturefile = "gfx/interface/ideologies/ECU_army.dds"		
 	}	
+			spriteType = {
+		name = "GFX_ideology_ECU_communism_group"
+		texturefile = "gfx/interface/ideologies/ECU_communism.dds"		
+	}		
+	
 }
