@@ -49,6 +49,7 @@
 	spriteType = {
 		name = "GFX_ideology_BOL_democratic_group"
 		texturefile = "gfx/interface/ideologies/BOL_liberal.dds"		
+<<<<<<< HEAD
 	}	
 	spriteType = {
 		name = "GFX_ideology_ECU_democratic_group"
@@ -59,4 +60,7 @@
 		texturefile = "gfx/interface/ideologies/ECU_army.dds"		
 	}			
 
+=======
+	}		
+>>>>>>> parent of 5d2dd97... screwed?
 }
