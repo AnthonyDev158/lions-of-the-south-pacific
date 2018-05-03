@@ -90,7 +90,9 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
-
+add_ideas = {
+	failure_of_the_chaco_war
+	}
 create_country_leader = {
 	name = "José Luis Tejada Sorzano"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"

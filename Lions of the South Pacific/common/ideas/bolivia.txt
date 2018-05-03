@@ -1,26 +1,26 @@
 ideas = {
 
-    country = {
-        failure_of_the_choco_war = {
+country = {
+		failure_of_the_chaco_war = {
+			
+			allowed = {
+				always = no
+			}
 
-            allowed = {
-                always = no
-            }
+			allowed_civil_war = {
+				always = yes
+			}
 
-            allowed_civil_war = {
-                always = yes
-            }
-
-            removal_cost = -1
-
-            modifier = {
-                stability_factor = -0.10
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
 				war_support_factor = -0.1
-            }
-            rule = {
-                can_create_factions = yes
-            }
-        }
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
 	# MILITARY
 
 
