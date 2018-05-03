@@ -139,14 +139,14 @@ create_corps_commander = {
     traits = {   }
     skill = 2
 	}
-}
+	
 create_corps_commander = {
     name = "Germán Busch"
     picture = "Busch.dds"
     traits = {   }
     skill = 2
 	}
-}
+	
 create_corps_commander = {
     name = "Enrique Peñaranda"
     picture = "Penaranda.dds"
