@@ -140,6 +140,20 @@ create_corps_commander = {
     skill = 2
 	}
 }
+create_corps_commander = {
+    name = "Germán Busch"
+    picture = "Busch.dds"
+    traits = {   }
+    skill = 2
+	}
+}
+create_corps_commander = {
+    name = "Enrique Peñaranda"
+    picture = "Penaranda.dds"
+    traits = {   }
+    skill = 2
+	}
+}
 1939.1.1 = {
 	set_politics = {
 
