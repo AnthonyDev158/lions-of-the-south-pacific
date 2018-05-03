@@ -93,6 +93,16 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Ricardo Paredes Romero"
+	desc = "POLITICS_FEDERICO_PAEZ_DESC"
+	picture = "Romero.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
 	name = "Jorge Luna"
 	desc = "POLITICS_FEDERICO_PAEZ_DESC"
 	picture = "luna.dds"
@@ -101,6 +111,22 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Alberto Enríquez Gallo"
+	desc = "POLITICS_ALBERTO_GALLO_DESC"
+	picture = "Gallo.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+create_corps_commander = {
+	name = "Alberto Enríquez Gallo"
+	picture = "Gallo.dds"
+	traits = { }
+	skill = 3
 }
 
 1939.1.1 = {
