@@ -112,6 +112,17 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+    name = "Germán Busch"
+    desc = "POLITICS_GERMAN_BUSCH_DESC"
+    picture = "Busch.dds"
+    expire = "1965.1.1"
+    ideology = oligarchism
+    traits = {
+        #
+	}
+}
 	
 create_country_leader = {
     name = "Carlos Quintanilla"
