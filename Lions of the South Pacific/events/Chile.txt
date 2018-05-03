@@ -24,6 +24,7 @@ country_event = {
 		ai_chance = {
 			factor = 51
 		}
+		set_party_name = { ideology = democratic long_name = CHL_radical_party_long name = CHL_radical_party }
 	    create_country_leader = {
 		    name = "Pedro Aguirre Cerda"
 		    desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
@@ -31,7 +32,7 @@ country_event = {
 		    expire = "1965.1.1"
 		    ideology = socialism
 		    traits = {
-			    #
+			    captain_of_industry
 			}
 		}
 	}
@@ -45,7 +46,6 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-        set_party_name = { ideology = democratic long_name = CHL_radical_party_long name = CHL_radical_party }
         create_country_leader = {
 		    name = "Gustavo Ross"
 		    desc = "POLITICS_GUSTAVO_ROSS_DESC"
@@ -53,7 +53,7 @@ country_event = {
 		    expire = "1965.1.1"
 		    ideology = conservatism
 		    traits = {
-			    #
+			    financial_expert
 			}
 		}
 	}

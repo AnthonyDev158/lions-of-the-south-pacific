@@ -34,6 +34,10 @@ spriteTypes = {
 		name = "GFX_ideology_CHL_neutrality_group"
 		texturefile = "gfx/interface/ideologies/chl_junta.dds"		
 	}
+		spriteType = {
+		name = "GFX_ideology_CHL_radical_group"
+		texturefile = "gfx/interface/ideologies/chl_radical.dds"		
+	}
 	spriteType = {
 		name = "GFX_ideology_BOL_fascism_group"
 		texturefile = "gfx/interface/ideologies/BOL_falange.dds"		
