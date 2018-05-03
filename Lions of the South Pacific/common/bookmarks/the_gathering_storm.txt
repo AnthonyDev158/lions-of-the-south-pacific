@@ -390,13 +390,13 @@ bookmarks = {
 				failure_of_the_chaco_war
 			}
 		}
-		"chl"={
+		"CHL"={
 			minor = yes
 			history = "CHL_GATHERING_STORM_DESC"
 			ideology = democratic
 			}
 		}
-		"pru"={
+		"PRU"={
 			minor = yes
 			history = "PRU_GATHERING_STORM_DESC"
 			ideology = neutrality
