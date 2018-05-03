@@ -59,9 +59,8 @@
 		name = "GFX_ideology_ECU_democratic_group"
 		texturefile = "gfx/interface/ideologies/ECU_socialist.dds"		
 	}	
-    spriteType = {
+spriteType = {
 		name = "GFX_ideology_ECU_neutrality_group"
 		texturefile = "gfx/interface/ideologies/ECU_army.dds"		
 	}			
-
 }
