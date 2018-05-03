@@ -21,13 +21,6 @@ bookmarks = {
 				FRA_revise_versailles
 			}
 		}
-		"BOL"={
-			history = "BOL_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				failure_of_the_chaco_war
-			}
-		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -387,6 +380,32 @@ bookmarks = {
 				CHI_join_the_republican_government
 				CHI_provoke_border_clashes
 				CHI_join_the_chinese_soviet
+			}
+		}
+		"BOL"={
+			minor = yes
+			history = "BOL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				failure_of_the_chaco_war
+			}
+		}
+		"chl"={
+			minor = yes
+			history = "CHL_GATHERING_STORM_DESC"
+			ideology = democratic
+			}
+		}
+		"pru"={
+			minor = yes
+			history = "PRU_GATHERING_STORM_DESC"
+			ideology = neutrality
+			}
+		}
+		"ECU"={
+			minor = yes
+			history = "ECU_GATHERING_STORM_DESC"
+			ideology = democratic
 			}
 		}
 		
