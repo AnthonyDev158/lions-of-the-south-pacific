@@ -1,0 +1,60 @@
+###########################
+#Bolivia Events
+###########################
+
+add_namespace = bolivia
+
+# The Military is Threatening Us!
+country_event = {
+    id = bolivia.1
+	title = bolivia.1.t
+	desc = bolivia.1.d
+	picture = news_event_006
+	
+    is_triggered_only = yes
+	
+	trigger = {
+		tag = BOL
+		AND = { 
+				date > 1936.5.16
+		
+		
+	}
+}
+	
+	mean_time_happen = {days = 4}
+	
+	option = {
+	    name = bolivia.1.a
+		ai_chance = {
+			factor = 60
+		}	
+	}
+}			
+		set_political_party = { ideology = neutrality popularity = 0.5 }
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		create_country_leader = {
+		    name = "Germán Busch"
+		    desc = "POLITICS_GERMAN_BUSCH_DESC"
+		    picture = "Busch.dds"
+		    expire = "1965.1.1"
+		    ideology = oligarchism
+		}
+	}
+	
+	option = {
+	    name = bolivia.1.b
+		ai_chance = {
+			factor = 40
+			}
+		}
+        add_political_power = -100
+		add_stability = -0.05
+			}
+		}
+	}
+}
+        		
+
+	
+	
