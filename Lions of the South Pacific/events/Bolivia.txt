@@ -15,26 +15,20 @@ country_event = {
 	
 	trigger = {
 		tag = BOL
-		AND = { 
-				date > 1936.5.16
-		
-		
+		date > 1936.5.16
 	}
-}
-	
+
 	mean_time_to_happen = {
-		days = 3
+		days = 20
 	}
 	
 	option = {
 	    name = bolivia.1.a
 		ai_chance = {
 			factor = 60
-		}	
-	}
-}			
+		}				
 		set_political_party = { ideology = neutrality popularity = 0.5 }
-		set_party_name = { ideology = neutrality long_name = BOL_junta_party name = BOL_junta_party }
+		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		create_country_leader = {
 		    name = "Germán Busch"
@@ -49,12 +43,9 @@ country_event = {
 	    name = bolivia.1.b
 		ai_chance = {
 			factor = 40
-			}
 		}
         add_political_power = -100
 		add_stability = -0.05
-			}
-		}
 	}
 }
 # Backstabbers in the Junta!
@@ -70,22 +61,17 @@ country_event = {
         tag = BOL
         date > 1939.8.23
         has_government = neutrality
-		
-		
 	}
-}
 	
 	mean_time_to_happen = {
-		days = 3
+		days = 20
 	}
 	
 	option = {
 	    name = bolivia.2.a
 		ai_chance = {
 			factor = 60
-		}	
-	}
-}			
+		}				
 		set_political_party = { ideology = neutrality popularity = 0.5 }
 		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
@@ -102,15 +88,11 @@ country_event = {
 	    name = bolivia.2.b
 		ai_chance = {
 			factor = 40
-			}
 		}
         add_political_power = -200
 		add_stability = -0.10
-			}
-		}
 	}
 }
-        		
 
 	
 	
