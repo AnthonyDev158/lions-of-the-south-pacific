@@ -22,7 +22,9 @@ country_event = {
 	}
 }
 	
-	mean_time_happen = {days = 4}
+	mean_time_to_happen = {
+		days = 3
+	}
 	
 	option = {
 	    name = bolivia.1.a
@@ -32,6 +34,7 @@ country_event = {
 	}
 }			
 		set_political_party = { ideology = neutrality popularity = 0.5 }
+		set_party_name = { ideology = neutrality long_name = BOL_junta_party name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		create_country_leader = {
 		    name = "Germán Busch"
@@ -50,6 +53,59 @@ country_event = {
 		}
         add_political_power = -100
 		add_stability = -0.05
+			}
+		}
+	}
+}
+# Backstabbers in the Junta!
+country_event = {
+    id = bolivia.2
+	title = bolivia.2.t
+	desc = bolivia.2.d
+	picture = news_event_006
+	
+    is_triggered_only = yes
+	
+	trigger = {
+        tag = BOL
+        date > 1939.8.23
+        has_government = neutrality
+		
+		
+	}
+}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	option = {
+	    name = bolivia.2.a
+		ai_chance = {
+			factor = 60
+		}	
+	}
+}			
+		set_political_party = { ideology = neutrality popularity = 0.5 }
+		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		create_country_leader = {
+		    name = "Carlos Quintanilla"
+		    desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
+		    picture = "Quintanilla.dds"
+		    expire = "1965.1.1"
+		    ideology = oligarchism
+		}
+	}
+	
+	option = {
+	    name = bolivia.2.b
+		ai_chance = {
+			factor = 40
+			}
+		}
+        add_political_power = -200
+		add_stability = -0.10
 			}
 		}
 	}

@@ -3104,3 +3104,7 @@
  bolivia.1.d:0 "Germán Busch and his followers marched on to the presidential palace planning to violently change the goverment! Should we crush this uprsing or should we not risk a civil war!"
  bolivia.1.a:0 "Crush this Revolt!"
  bolivia.1.b:0 "I guess we need to change our path..."
+ bolivia.2.t:0 "Traitors in the Bolivian Junta!"
+ bolivia.2.d:0 "Carlos Quintanilla and his followers are planning to return bolivia into the post junta government and he threatens to kill Busch! Should we let him take over or we will fight this rat!" 
+ bolivia.2.a:0 "I guess we will return to the status quo..."
+ bolivia.2.b:0 "We will fight until the last man is standing!"
