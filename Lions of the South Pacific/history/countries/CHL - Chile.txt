@@ -83,11 +83,11 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 1
+			popularity = 2
 		}
 		
 		communism = {
-			popularity = 4
+			popularity = 3
 		}
 	}
 	
@@ -192,16 +192,22 @@ create_corps_commander = {
 	name = "Bernhard Bechler"
 	picture = "dartnell.dds"
 	traits = { }
-	skill = 2
+	skill = 4
 }
 
 create_corps_commander = {
 	name = "René Schneider Chereau"
 	picture = "Rene.dds"
 	traits = { }
-	skill = 2
+	skill = 3
 }
 
+create_corps_commander = {
+	name = "Augusto Pinochet Ugarte"
+	picture = "pinochet.dds"
+	traits = { }
+	skill = 2
+}
 
 ### Ship Variants ###
 
