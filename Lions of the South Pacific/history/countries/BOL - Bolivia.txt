@@ -92,7 +92,7 @@ set_politics = {
 }
 add_ideas = {
 	failure_of_the_chaco_war
-	}
+ }
 create_country_leader = {
 	name = "José Luis Tejada Sorzano"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
@@ -171,27 +171,28 @@ create_corps_commander = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
-			popularity = 0
-		}
+		    democratic = { 
+			    popularity = 0
+		    }
 
-		fascism = {
-			popularity = 0
+		    fascism = {
+			    popularity = 0
+		    }
+		
+		    communism = {
+			    popularity = 0
+		    }
+		 
+		    neutrality = { 
+			    popularity = 100
+            }
 		}
 		
-		communism = {
-			popularity = 0
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = neutrality
+	    ruling_party = neutrality
 		last_election = "1934.11.11"
 		election_frequency = 72
 		elections_allowed = no
 	}
+}
 
 	
