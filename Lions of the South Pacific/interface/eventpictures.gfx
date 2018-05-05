@@ -1933,6 +1933,11 @@ spriteTypes = {
 	    texturefile = "gfx/event_pictures/report_event_chile_chilean_elections.dds"
 	}
 	
+	spriteType = {
+	    name = "GFX_report_event_peru_peruvian_elections"
+		texturefile = "gfx/event_pictures/report_event_peru_peruvian_elections.dds"
+	}
+	
 }
 	
 	

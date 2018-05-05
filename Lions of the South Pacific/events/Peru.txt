@@ -1,0 +1,59 @@
+﻿###########################
+#Peruvian Events
+###########################
+
+add_namespace = peru
+
+# The 1939 Peruvian Elections
+country_event = {
+    id = peru.1
+	title = peru.1.t
+	desc = peru.1.d
+	picture = GFX_report_event_peru_peruvian_elections
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = CHL
+		date > 1939.9.28
+		date < 1939.10.29
+	}
+	
+	option = {
+	    name = peru.1.a
+		ai_chance = {
+			factor = 78
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no } 
+	    add_political_power = -35
+	}
+
+    option = {
+		name = peru.1.b
+		ai_chance = {
+			factor = 22
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		add_political_power = 42
+	}
+	
+    option = {
+	    name = peru.1.c
+		random_list = {
+			78 = {
+				set_politics = { ruling_party = democratic elections_allowed = no } 
+				add_political_power = -35
+			}
+			22 = {
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				add_political_power = 42
+			}
+		}
+	}
+}   
+	
+	
