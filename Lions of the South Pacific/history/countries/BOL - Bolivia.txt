@@ -90,9 +90,11 @@ set_politics = {
 	election_frequency = 72
 	elections_allowed = no
 }
+
 add_ideas = {
 	failure_of_the_chaco_war
- }
+}
+
 create_country_leader = {
 	name = "José Luis Tejada Sorzano"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
@@ -136,6 +138,7 @@ create_country_leader = {
         #
 	}
 }
+
 create_country_leader = {
 	name = "José Antonio Arze"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
@@ -146,27 +149,28 @@ create_country_leader = {
 		#
 	}
 }
+
 create_corps_commander = {
     name = "Daniel Salamanca Urey"
     picture = "Urey.dds"
     traits = {   }
     skill = 2
-	}
+}
 	
 create_corps_commander = {
     name = "Germán Busch"
     picture = "Busch.dds"
     traits = {   }
     skill = 2
-	}
+}
 	
 create_corps_commander = {
     name = "Enrique Peñaranda"
     picture = "Penaranda.dds"
     traits = {   }
     skill = 2
-	}
 }
+
 1939.1.1 = {
 	set_politics = {
 
