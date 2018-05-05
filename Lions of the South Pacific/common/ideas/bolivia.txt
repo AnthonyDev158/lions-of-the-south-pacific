@@ -1,7 +1,8 @@
 ideas = {
 
-country = {
+    country = {
 		failure_of_the_chaco_war = {
+			
 			
 			allowed = {
 				always = no
@@ -14,19 +15,19 @@ country = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.10
 				war_support_factor = -0.1
 			}
 			rule = {
 				can_create_factions = yes
 			}
 		}
-	# MILITARY
+	}
+
+
 
 
 	political_advisor = {
-
-		BOL_jose_maria_gutierrez = {
+        jose_maria_gutierrez = {
 
 			picture = generic_political_advisor_south_america_1
 
@@ -37,7 +38,7 @@ country = {
 			traits = { armaments_organizer }
 		}
 
-		BOL_enrique_finot = {
+		enrique_finot = {
 
 			picture = generic_political_advisor_south_america_3
 				
@@ -48,7 +49,7 @@ country = {
 			traits = { fortification_engineer }
 		}
 
-		BOL_german_busch_beccera = {
+		german_busch_beccera = {
 
 			picture = generic_political_advisor_south_america_2
 			
@@ -62,7 +63,7 @@ country = {
 
 	army_chief = {
 
-		BOL_gualberto_villarroel_lopez = {
+		gualberto_villarroel_lopez = {
 
 			picture = generic_army_south_america_3
 			
@@ -77,7 +78,7 @@ country = {
 			}
 		}
 
-		BOL_roberto_hinojosa = {
+		roberto_hinojosa = {
 
 			picture = generic_army_south_america_4
 			
@@ -95,7 +96,7 @@ country = {
 
 	air_chief = {
 
-		BOL_jose_santos_quinteros = {
+		jose_santos_quinteros = {
 
 			picture = generic_air_south_america_3
 			
@@ -110,7 +111,7 @@ country = {
 			}
 		}
 
-		BOL_david_toro_ruilova = {
+		david_toro_ruilova = {
 
 			picture = generic_air_south_america_1
 			
@@ -129,7 +130,7 @@ country = {
 
 	navy_chief = {
 
-		BOL_gil_ibarra_juarez = {
+		gil_ibarra_juarez = {
 
 			picture = generic_navy_south_america_3
 			
@@ -144,7 +145,7 @@ country = {
 			}
 		}
 
-		BOL_eusebio_ayala = {
+		eusebio_ayala = {
 
 			picture = generic_navy_south_america_1
 			
@@ -162,7 +163,7 @@ country = {
 
 	high_command = {
 
-		BOL_tomas_monje_gutierrez = {
+		tomas_monje_gutierrez = {
 			
 			picture = generic_army_south_america_2
 			
@@ -177,7 +178,7 @@ country = {
 			}
 		}
 		
-		BOL_carlos_altamirano = {
+		carlos_altamirano = {
 
 			picture = generic_army_south_america_5
 			
@@ -192,7 +193,7 @@ country = {
 			}
 		}
 
-		BOL_fabian_vaca_chavez = {
+		fabian_vaca_chavez = {
 
 			picture = generic_air_south_america_1
 			
@@ -207,7 +208,7 @@ country = {
 			}
 		}
 
-		BOL_julian_montellano_carrasco = {
+		julian_montellano_carrasco = {
 
 			picture = generic_navy_south_america_1
 			
@@ -224,7 +225,7 @@ country = {
 	}	
 
 	theorist = {
-		BOL_enrique_baldivieso_aparicio = {
+		enrique_baldivieso_aparicio = {
 			
 			picture = generic_army_south_america_1
 
@@ -239,7 +240,7 @@ country = {
 			traits = { military_theorist }
 		}
 		
-		BOL_hector_bilbao_roja = {
+		hector_bilbao_roja = {
 
 			picture = generic_air_south_america_1
 			
@@ -254,7 +255,7 @@ country = {
 			traits = { air_warfare_theorist }
 		}	
 
-		BOL_alberto_ostria_gutierrez = {
+		alberto_ostria_gutierrez = {
 
 			picture = generic_navy_south_america_1
 			
