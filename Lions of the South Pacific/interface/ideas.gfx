@@ -3631,8 +3631,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_failure_of_the_choco_war"
-		texturefile = "gfx/interface/ideas/failure_of_the_choco_war.dds"
+		name = "GFX_idea_failure_of_the_chaco_war"
+		texturefile = "gfx/interface/ideas/failure_of_the_chaco_war.dds"
 	}
 	
 }
