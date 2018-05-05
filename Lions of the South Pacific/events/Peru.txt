@@ -43,13 +43,15 @@ country_event = {
 	
     option = {
 	    name = peru.1.c
-		78 = {
-		    set_politics = { ruling_party = democratic elections_allowed = no } 
-	        add_political_power = -35
-	    }
-		22 = {
-		    set_politics = { ruling_party = fascism elections_allowed = no }
-		    add_political_power = 42
+		random_list = {
+			78 = {
+				set_politics = { ruling_party = democratic elections_allowed = no } 
+				add_political_power = -35
+			}
+			22 = {
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				add_political_power = 42
+			}
 		}
 	}
 }   
