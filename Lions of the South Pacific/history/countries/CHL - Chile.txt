@@ -169,23 +169,58 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Bernhard Bechler"
 	picture = "dartnell.dds"
-	traits = { }
+	traits = { old_guard cavalry_officer }
 	skill = 4
+	attack_skill = 6
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 4
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "René Schneider Chereau"
 	picture = "Rene.dds"
 	traits = { }
 	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "Augusto Pinochet Ugarte"
 	picture = "pinochet.dds"
-	traits = { }
+	traits = { skilled_staffer politically_connected }
 	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
 }
+
+create_corps_commander = {
+	name = "Escudero Oscar Otárola"
+	picture = "CHL_oscar.dds"
+	traits = { trait_mountaineer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Rafael Fernández Reyes"
+	picture = "CHL_rafael.dds"
+	traits = { commando }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 5
+}
+
 
 ### Ship Variants ###
 
