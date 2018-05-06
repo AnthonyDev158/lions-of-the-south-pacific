@@ -1,0 +1,21 @@
+
+state={
+	id=764
+	name="STATE_764" # Cajamarca
+	manpower = 82786
+	
+	state_category = town
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		8199 12969 5190
+	}
+}
