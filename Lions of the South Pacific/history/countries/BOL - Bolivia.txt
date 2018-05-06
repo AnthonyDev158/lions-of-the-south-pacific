@@ -150,12 +150,6 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-    name = "Daniel Salamanca Urey"
-    picture = "Urey.dds"
-    traits = {   }
-    skill = 2
-}
 	
 create_corps_commander = {
     name = "Germán Busch"
