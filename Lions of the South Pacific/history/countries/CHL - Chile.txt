@@ -221,6 +221,19 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 
+create_navy_leader = {
+	name = "Julio Allard Pinto"
+		picture = "CHL_Julio.dds"
+	traits = { superior_tactician }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "José Toribio Merino"
+		picture = "CHL_merino.dds"
+	traits = { superior_tactician spotter ironside }
+	skill = 5
+}
 
 ### Ship Variants ###
 
