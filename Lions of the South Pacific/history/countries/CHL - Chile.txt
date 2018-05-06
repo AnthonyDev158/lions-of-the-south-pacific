@@ -170,7 +170,7 @@ create_corps_commander = {
 	name = "Bernhard Bechler"
 	picture = "dartnell.dds"
 	traits = { old_guard cavalry_officer }
-	skill = 4
+	skill = 5
 	attack_skill = 6
 	defense_skill = 1
 	planning_skill = 2
@@ -214,7 +214,7 @@ create_corps_commander = {
 	name = "Rafael Fernández Reyes"
 	picture = "CHL_rafael.dds"
 	traits = { commando }
-	skill = 4
+	skill = 3
 	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 2
@@ -234,6 +234,7 @@ create_navy_leader = {
 	traits = { superior_tactician spotter ironside }
 	skill = 5
 }
+
 
 ### Ship Variants ###
 
