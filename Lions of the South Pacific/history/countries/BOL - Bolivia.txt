@@ -124,7 +124,7 @@ create_country_leader = {
     expire = "1965.1.1"
     ideology = oligarchism
     traits = {
-        #
+        fascist_sympathies
 	}
 }
 	
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "Arze.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = anti_revisionism
 	traits = {
 		#
 	}
@@ -154,15 +154,23 @@ create_country_leader = {
 create_corps_commander = {
     name = "Germán Busch"
     picture = "Busch.dds"
-    traits = {   }
-    skill = 2
+    traits = { trait_reckless harsh_leader commando }
+    skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 	
 create_corps_commander = {
     name = "Enrique Peñaranda"
     picture = "Penaranda.dds"
-    traits = {   }
+    traits = { infantry_officer career_officer }
     skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
 }
 
 1939.1.1 = {
