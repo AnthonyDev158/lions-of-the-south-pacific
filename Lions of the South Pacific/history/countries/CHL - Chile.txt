@@ -169,7 +169,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Bernhard Bechler"
 	picture = "dartnell.dds"
-	traits = { old_guard cavalry_officer }
+	traits = { old_guard cavalry_officer cavalry_leader }
 	skill = 5
 	attack_skill = 6
 	defense_skill = 1
@@ -213,7 +213,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Rafael Fernández Reyes"
 	picture = "CHL_rafael.dds"
-	traits = { commando }
+	traits = { commando naval_invader }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 1
@@ -235,6 +235,19 @@ create_navy_leader = {
 	skill = 5
 }
 
+create_navy_leader = {
+	name = "Francisco O'Ryan Orrego"
+		picture = "CHL_ryan.dds"
+	traits = { seawolf blockade_runner superior_tactician }
+	skill = 7
+}
+
+create_navy_leader = {
+	name = "Vicente Merino"
+		picture = "CHL_vicente.dds"
+	traits = { fly_swatter air_controller }
+	skill = 4
+}
 
 ### Ship Variants ###
 
