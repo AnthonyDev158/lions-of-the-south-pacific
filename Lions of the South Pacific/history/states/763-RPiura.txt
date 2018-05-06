@@ -3,6 +3,9 @@ state={
 	id=763
 	name="STATE_763" # Piura
 	manpower = 34091
+	resources={
+		oil=14 # was: 18
+	}
 	
 	state_category = town
 
