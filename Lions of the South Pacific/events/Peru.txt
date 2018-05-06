@@ -14,7 +14,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = CHL
+		tag = PRU
 		date > 1939.9.28
 		date < 1939.10.29
 	}
