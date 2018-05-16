@@ -137,6 +137,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Luis Alberto Flores"
+	desc = "POLITICS_LUIS_ALBERTO_FLORES_DESC"
+	picture = "Luis_Alberto_Flores.dds"
+	expire = "1965.1.1"
+	traits = {
+		#
+	}
+}
+
 1939.1.1 = {
 	set_politics = {
 
@@ -170,15 +180,5 @@ create_country_leader = {
 		traits = {
 			#
 		}
-	}
-}
-
-create_country_leader = {
-	name = "Luis Alberto Flores"
-	desc = "POLITICS_LUIS_ALBERTO_FLORES_DESC"
-	picture = "Luis_Alberto_Flores.dds"
-	expire = "1965.1.1"
-	traits = {
-		#
 	}
 }
