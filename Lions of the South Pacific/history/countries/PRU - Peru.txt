@@ -75,15 +75,15 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 27
+			popularity = 33
 		}
 		
 		communism = {
-			popularity = 1
+			popularity = 2
 		}
 		
 		neutrality = { 
-			popularity = 34
+			popularity = 27
 		}
 	}
 	
@@ -94,9 +94,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
+	name = "Óscar R. Benavides Larrea"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
+	picture = "Oscar_Benavides_Larrea.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
