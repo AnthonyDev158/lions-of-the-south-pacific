@@ -159,9 +159,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-    name = "Manuel Arturo Odría"
+    name = "Manuel Arturo Odria"
 	picture = "Manuel_A_Odria.dds"
-	traits = { old_guard infantry_leader career_officer inflexible_strategist }
+	traits = { old_guard infantry_leader career_officer }
 	skill = 5
 	attack_skill = 5
 	defense_skill = 3
