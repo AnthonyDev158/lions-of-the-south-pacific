@@ -158,6 +158,17 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_corps_commander = {
+    name = "Manuel Arturo Odría"
+	picture = "Manuel_A_Odria.dds"
+	traits = { old_guard infantry_leader career_officer inflexible_strategist }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 4
+}
+
 1939.1.1 = {
 	set_politics = {
 
