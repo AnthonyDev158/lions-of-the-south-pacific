@@ -1,6 +1,6 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
+#oob = "PRU_1936"
 
 # Starting tech
 set_technology = {
@@ -75,15 +75,15 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 33
+			popularity = 27
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 1
 		}
 		
 		neutrality = { 
-			popularity = 27
+			popularity = 34
 		}
 	}
 	
@@ -94,9 +94,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Óscar R. Benavides Larrea"
+	name = "Óscar Benavides"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "Oscar_Benavides_Larrea.dds"
+	picture = "GFX_Portrait_peru_oscar_benavides"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -107,7 +107,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jose Quesada Larrea"
 	desc = "POLITICS_JOSE_QUESADA_LARREA_DESC"
-	picture = "Jose_Quesada_Larrea.dds"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
@@ -135,38 +135,6 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-
-create_country_leader = {
-	name = "Luis Alberto Flores"
-	desc = "POLITICS_LUIS_ALBERTO_FLORES_DESC"
-	picture = "Luis_Alberto_Flores.dds"
-	expire = "1965.1.1"
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-    name = "Antonio Rodriguez Ramirez"
-	picture = "Antonio_Rodriguez_Ramirez.dds"
-	traits = { politically_connected old_guard urban_assault_specialist }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-    name = "Manuel Arturo Odria"
-	picture = "Manuel_A_Odria.dds"
-	traits = { old_guard infantry_leader career_officer }
-	skill = 5
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 4
 }
 
 1939.1.1 = {
@@ -202,5 +170,15 @@ create_corps_commander = {
 		traits = {
 			#
 		}
+	}
+}
+
+create_country_leader = {
+	name = "Luis Alberto Flores"
+	desc = "POLITICS_LUIS_ALBERTO_FLORES_DESC"
+	picture = "Luis_Alberto_Flores.dds"
+	expire = "1965.1.1"
+	traits = {
+		#
 	}
 }
