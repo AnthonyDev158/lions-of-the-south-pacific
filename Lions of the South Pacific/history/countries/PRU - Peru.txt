@@ -96,7 +96,7 @@ set_politics = {
 create_country_leader = {
 	name = "Óscar Benavides"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
+	picture = "Oscar_Benavides_Larrea.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -107,7 +107,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jose Quesada Larrea"
 	desc = "POLITICS_JOSE_QUESADA_LARREA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	picture = "Jose_Quesada_Larrea.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
@@ -181,4 +181,26 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Rodriguez Ramirez"
+	picture = "Antonio_Rodriguez_Ramirez.dds"
+	traits = { old_guard urban_assault_specialist }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Manuel Arturo Odría"
+	picture = "PRU_Manuel.dds"
+	traits = { career_officer politically_connected inflexible_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
 }
