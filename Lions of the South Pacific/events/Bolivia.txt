@@ -27,17 +27,10 @@ country_event = {
 		ai_chance = {
 			factor = 60
 		}				
-		set_political_party = { ideology = neutrality popularity = 0.5 }
-		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
-		set_politics = { ruling_party = neutrality elections_allowed = no }
-		create_country_leader = {
-		    name = "Germán Busch"
-		    desc = "POLITICS_GERMAN_BUSCH_DESC"
-		    picture = "Busch.dds"
-		    expire = "1965.1.1"
-		    ideology = oligarchism
-		}
+        add_political_power = -100
+		add_stability = -0.05
 	}
+
 	
 	option = {
 	    name = bolivia.1.b
@@ -46,7 +39,16 @@ country_event = {
 		}
         add_political_power = -100
 		add_stability = -0.05
-	}
+		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		create_country_leader = {
+		    name = "Germán Busch"
+		    desc = "POLITICS_GERMAN_BUSCH_DESC"
+		    picture = "Busch.dds"
+		    expire = "1965.1.1"
+		    ideology = oligarchism
+	    }
+    }
 }
 # Backstabbers in the Junta!
 country_event = {
@@ -72,7 +74,6 @@ country_event = {
 		ai_chance = {
 			factor = 60
 		}				
-		set_political_party = { ideology = neutrality popularity = 0.5 }
 		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		create_country_leader = {
