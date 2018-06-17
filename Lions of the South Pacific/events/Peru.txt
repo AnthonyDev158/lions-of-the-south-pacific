@@ -65,7 +65,7 @@ country_event = {
     id = peru.2
 	title = peru.2.t
 	desc = peru.2.d
-	picture = GFX_report_event_peru_peruvian_elections
+	picture = GFX_report_event_peru_1936_elections
 	
 	is_triggered_only = yes
     
@@ -185,7 +185,7 @@ country_event = {
     id = peru.3
 	title = peru.3.t
 	desc = peru.3.d
-	picture = GFX_report_event_peru_peruvian_elections
+	picture = GFX_report_event_peru_benavides_decision
 	
 	is_triggered_only = yes
 	

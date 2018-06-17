@@ -1938,6 +1938,16 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_peru_peruvian_elections.dds"
 	}
 	
+	spriteType = {
+	    name = "GFX_report_event_peru_1936_elections"
+		texturefile = "gfx/event_pictures/report_event_peru_1936_elections.dds"
+	}
+	
+	spriteType = {
+	    name = "GFX_report_event_peru_benavides_decision"
+		texturefile = "gfx/event_pictures/report_event_peru_benavides_decision.dds"
+	}
+	
 }
 	
 	
