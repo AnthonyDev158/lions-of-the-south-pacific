@@ -76,7 +76,8 @@ country_event = {
 
 		CHL = {
 			country_event = { days = 1 id = chile.3 }
-    } 
+        }
+    }		
 
 	option = {
 	    name = chile.2.b
@@ -99,17 +100,20 @@ country_event = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-
+		}
 		random_list = {
 			70 = {
 				CHL = {
 					country_event = { days = 1 id = chile.3 }
+			    }
 			}
 			30 = {
 				set_politics = { ruling_party = fascism elections_allowed = no }
 				add_political_power = 30
 			}
 		}
+	}
+}
       		
 # By Might or By Right
 country_event = {
@@ -124,7 +128,8 @@ country_event = {
     	name = chile.3.a
 		CHL = {
 			country_event = { days = 49 id = chile.1 }
-    } 
+        }
+    }		
 
 	option = {
 	    name = chile.3.b
