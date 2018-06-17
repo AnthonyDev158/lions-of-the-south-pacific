@@ -58,7 +58,7 @@ country_event = {
     id = chile.2
 	title = chile.2.t
 	desc = chile.2.d
-	picture = GFX_report_events_chile_chilean_elections
+	picture = GFX_report_events_chile_la_marcha_nacista
         		
     is_triggered_only = yes
 	
@@ -120,7 +120,7 @@ country_event = {
     id = chile.3
 	title = chile.3.t
 	desc = chile.3.d
-	picture = GFX_report_events_chile_chilean_elections
+	picture = GFX_report_events_chile_nacista_after
         		
     is_triggered_only = yes
 
