@@ -132,7 +132,7 @@ country_event = {
 	}
 
 	option = {
-	    name = peru.2.d
+	    name = peru.2.da
 		ai_chance = {
 		    factor = 20
 			modifier = {
