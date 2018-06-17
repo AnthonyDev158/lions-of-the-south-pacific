@@ -13,12 +13,6 @@ country_event = {
 	
     is_triggered_only = yes
 	
-	trigger = {
-		tag = CHL
-		date > 1938.10.1
-		date < 1938.11.13
-	}
-	
 	option = {
 	    name = chile.1.a
 		ai_chance = {
@@ -59,6 +53,91 @@ country_event = {
 	}
 }
         		
+# The Seguro Obrero Coup
+country_event = {
+    id = chile.2
+	title = chile.2.t
+	desc = chile.2.d
+	picture = GFX_report_events_chile_chilean_elections
+        		
+    is_triggered_only = yes
+	
+	trigger = {
+		tag = CHL
+		date > 1938.9.5
+		date < 1938.9.16
+	}	
 
-	
-	
+	option = {
+	    name = chile.2.a
+		ai_chance = {
+			factor = 80
+		}
+
+		CHL = {
+			country_event = { days = 1 id = chile.3 }
+    } 
+
+	option = {
+	    name = chile.2.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		add_political_party = 25
+	}
+
+	option = {
+	    name = chile.2.c
+		ai_chance = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+
+		random_list = {
+			70 = {
+				CHL = {
+					country_event = { days = 1 id = chile.3 }
+			}
+			30 = {
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				add_political_power = 30
+			}
+		}
+      		
+# By Might or By Right
+country_event = {
+    id = chile.3
+	title = chile.3.t
+	desc = chile.3.d
+	picture = GFX_report_events_chile_chilean_elections
+        		
+    is_triggered_only = yes
+
+    option = {
+    	name = chile.3.a
+		CHL = {
+			country_event = { days = 49 id = chile.1 }
+    } 
+
+	option = {
+	    name = chile.3.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_politics = { ruling_party = non_aligned elections_allowed = no }
+		add_political_party = 45
+	}
+}   
+  
+    
