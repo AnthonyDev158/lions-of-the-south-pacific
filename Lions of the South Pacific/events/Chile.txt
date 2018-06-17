@@ -89,7 +89,7 @@ country_event = {
 			}
 		}
 		set_politics = { ruling_party = fascism elections_allowed = no }
-		add_political_party = 25
+		add_political_power = 25
 	}
 
 	option = {
@@ -140,8 +140,8 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		set_politics = { ruling_party = non_aligned elections_allowed = no }
-		add_political_party = 45
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		add_political_power = 45
 	}
 }   
   
