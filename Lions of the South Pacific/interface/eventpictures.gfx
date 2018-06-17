@@ -1946,9 +1946,17 @@ spriteTypes = {
 	spriteType = {
 	    name = "GFX_report_event_peru_benavides_decision"
 		texturefile = "gfx/event_pictures/report_event_peru_benavides_decision.dds"
+	}	
+	
+	spriteType = {
+	    name = "GFX_report_event_chile_la_marcha_nacista"
+		texturefile = "gfx/event_pictures/report_event_chile_la_marcha_nacista.dds"
+	}
+	spriteType = {
+	    name = "GFX_report_event_chile_nacista_after"
+		texturefile = "gfx/event_pictures/report_event_chile_nacista_after.dds"
 	}
 	
 }
-	
 	
 	
