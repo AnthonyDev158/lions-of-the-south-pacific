@@ -130,54 +130,6 @@ country_event = {
 			}
 		}
 	}
-
-	option = {
-	    name = peru.2.da
-		ai_chance = {
-		    factor = 20
-			modifier = {
-			    factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-		random_list = {
-			40 = {
-				set_politics = { ruling_party = democratic elections_allowed = no }
-		        set_party_name = { ideology = democratic long_name = PRU_socialism_party_long name = PRU_socialism_party }
-		        add_political_power = 20
-		        create_country_leader = {
-		            name = "Luis Antonio Eguiguren"
-		            desc = "POLITICS_LUIS_ANTONIO_EGUIGUREN_DESC"
-		            picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		            expire = "1965.1.1"
-		            ideology = socialism
-		            traits = {
-			            #
-			        }
-		        }
-			}
-			31 = {
-				set_politics = { ruling_party = democratic elections_allowed = no }
-		        set_party_name = { ideology = democratic long_name = PRU_conservaturism_party_long name = PRU_conservaturism_party }
-		        add_political_power = 18
-			}
-		    29 = {
-			    set_politics = { ruling_party = fascism elections_allowed = no }
-		        set_party_name = { ideology = fascism long_name = PRU_union_party_long name = PRU_union_party }
-		        add_political_power = 15
-		        create_country_leader = {
-		            name = "Luis Alberto Flores"
-		            desc = "POLITICS_LUIS_ALBERTO_FLORES_DESC"
-		            picture = "Luis_Alberto_Flores.dds"
-		            expire = "1965.1.1"
-		            ideology = falangism
-		            traits = {
-			            #
-			       }
-				}
-			}
-		}
-	}
 }	
 	
 #Benavides Question of DEMOCRACY
