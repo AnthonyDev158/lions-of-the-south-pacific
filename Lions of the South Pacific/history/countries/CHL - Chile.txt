@@ -189,8 +189,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Augusto Pinochet Ugarte"
-	picture = "pinochet.dds"
+	name = "Carlos Ibáñez del Campo"
+	picture = "ibanez.dds"
 	traits = { skilled_staffer politically_connected inflexible_strategist }
 	skill = 2
 	attack_skill = 3
