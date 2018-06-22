@@ -3108,6 +3108,11 @@
  bolivia.2.d:0 "Carlos Quintanilla has envisioned a new Bolivia; Carlos and his followers plan to return Bolivia to a Status Quo." 
  bolivia.2.a:0 "We will return the Government to the status quo..."
  bolivia.2.b:0 "Quintanilla will bring Bolivia to failure."
+ bolivia.3.t:0 "Consitituent Assembly"
+ bolivia.3.d:0 "fix later"
+ bolivia.3.a:0 "Declare Self Dictator!"
+ bolivia.3.b:0 "The Falagists are Victorious!"
+ bolivia.3.c:0 "The Collectivists Win!"
  peru.1.t:0 "The 1939 Peruvian Elections"
  peru.1.d:0 "Ever since the assassination of President Sanchez Serro, Peru has been at a standstill with the Military Junta. However, the Peruvian Army has announced an election to be held in order to choose the candidate of the People's Choice. In one side we have Democratic leader Manuel Prado Ugarteche with his promotion of traditionalist values, and in the other side we have ultra-nationalist leader, José Quesada Larrea following a patriotic rhetoric. It is time for the people of Peru to decide the leader that'll follow them to a glorious future."
  peru.1.a:0 "Let's help Democracy return to Peru! (Ugarteche Wins)"
@@ -3132,3 +3137,4 @@
  peru.3.a:0 "The time has come, bring democracy to Peru."
  peru.3.b:0 "Continue the Junta, Viva la Junta Peruana!"
  peru.3.c:0 "Make a referedum to know the peoples opinon."
+ 

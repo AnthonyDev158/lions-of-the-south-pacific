@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 #Bolivia Events
 ###########################
 
@@ -94,5 +94,47 @@ country_event = {
 	}
 }
 
+#Consitituent Assembly
+country_event = {
+	id = bolivia.3
+	title = bolivia.3.t
+	desc = Bolivia.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+
+	is_triggered_only = yes
+
+	option = { # Declare Self Dictator
+		name = bolivia.3.a
+		ai_chance = 
+			 factor = 34 
+		}
+		unlock_national_focus = BOL_declare_self_as_dictator
+		add_political_power = 5
+
+		}
+	}
+
+	option = { # The Falagists are Victorious
+		name = bolivia.3.b
+		ai_chance = 
+			 factor = 33 
+		}
+		unlock_national_focus = BOL_the_falagists
+		add_political_power = 5
+
+		}
+	}
+
+	option = { # The Collectivists Win
+		name = bolivia.3.c
+		ai_chance = 
+			 factor = 33 
+		}
+		unlock_national_focus = BOL_the_falagists
+		add_political_power = 5
+		
+		}
+	}
+}
 	
 	
