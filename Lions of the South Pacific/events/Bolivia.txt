@@ -106,7 +106,7 @@ country_event = {
 	option = {
 	    name = bolivia.3.a
 		ai_chance = {
-			factor = 60
+			factor = 34
 		}				
         add_political_power = +10
         
@@ -115,16 +115,16 @@ country_event = {
 	option = {
 	    name = bolivia.3.b
 		ai_chance = {
-			factor = 40
+			factor = 33
 		}
         add_political_power = +15
 
 	}
 
 	option = {
-	    name = bolivia.3.b
+	    name = bolivia.3.c
 		ai_chance = {
-			factor = 40
+			factor = 33
 		}
         add_political_power = +5
 		
