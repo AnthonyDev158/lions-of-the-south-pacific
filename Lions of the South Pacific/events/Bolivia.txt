@@ -94,47 +94,43 @@ country_event = {
 	}
 }
 
-#Consitituent Assembly
+# Consitituent Assembly
 country_event = {
-	id = bolivia.3
+    id = bolivia.3
 	title = bolivia.3.t
-	desc = Bolivia.1.d
-	picture = GFX_report_event_japanese_transport_soldiers
-
-	is_triggered_only = yes
-
-	option = { # Declare Self Dictator
-		name = bolivia.3.a
-		ai_chance = 
-			 factor = 34 
-		}
-		unlock_national_focus = BOL_declare_self_as_dictator
-		add_political_power = 5
-
-		}
+	desc = bolivia.3.d
+	picture = news_event_006
+	
+    is_triggered_only = yes
+	
+	option = {
+	    name = bolivia.3.a
+		ai_chance = {
+			factor = 60
+		}				
+        add_political_power = +10
+        
 	}
 
-	option = { # The Falagists are Victorious
-		name = bolivia.3.b
-		ai_chance = 
-			 factor = 33 
+	option = {
+	    name = bolivia.3.b
+		ai_chance = {
+			factor = 40
 		}
-		unlock_national_focus = BOL_the_falagists
-		add_political_power = 5
+        add_political_power = +15
 
-		}
 	}
 
-	option = { # The Collectivists Win
-		name = bolivia.3.c
-		ai_chance = 
-			 factor = 33 
+	option = {
+	    name = bolivia.3.b
+		ai_chance = {
+			factor = 40
 		}
-		unlock_national_focus = BOL_the_falagists
-		add_political_power = 5
+        add_political_power = +5
 		
-		}
-	}
-}
+	    }
+    }
+
+	
 	
 	
