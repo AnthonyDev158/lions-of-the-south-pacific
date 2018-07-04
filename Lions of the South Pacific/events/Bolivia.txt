@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 #Bolivia Events
 ###########################
 
@@ -50,7 +50,7 @@ country_event = {
     }
 }
 # Backstabbers in the Junta!
-country_event = {
+couantry_event = {
     id = bolivia.2
 	title = bolivia.2.t
 	desc = bolivia.2.d
@@ -131,6 +131,5 @@ country_event = {
 	    }
     }
 
-	
 	
 	
