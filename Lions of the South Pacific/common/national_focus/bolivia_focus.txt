@@ -137,7 +137,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BOL_Constituent Assembly 
+		id = BOL_Constituent_Assembly 
 		icon = GFX_focus_generic_self_management
 		cost = 10.00
 		prerequisite = {
@@ -161,7 +161,7 @@ focus_tree = {
 		icon = GFX_focus_SAF_support_ossewabrandwag
 		cost = 10.00
 		prerequisite = {
-			focus = BOL_Constituent Assembly 
+			focus = BOL_Constituent_Assembly 
 		}
 		x = 19
 		y = 4
@@ -848,7 +848,7 @@ focus_tree = {
 			focus = BOL_recognize_workers_unions
 		}
 		prerequisite = {
-			focus = BOL_creation_of_a_retirement _pension
+			focus = BOL_creation_of_a_retirement_pension
 		}
 		mutually_exclusive = {
 			focus = BOL_pro_allied_stance
@@ -880,7 +880,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BOL_creation_of_a_retirement _pension
+		id = BOL_creation_of_a_retirement_pension
 		icon = GFX_CapitalistSystems
 		cost = 10.00
 		prerequisite = {
@@ -942,7 +942,7 @@ focus_tree = {
 			focus = BOL_recognize_workers_unions
 		}
 		prerequisite = {
-			focus = BOL_creation_of_a_retirement _pension
+			focus = BOL_creation_of_a_retirement_pension
 		}
 		mutually_exclusive = {
 			focus = BOL_pro_axis_stance
