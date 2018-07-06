@@ -7,6 +7,7 @@ focus_tree = {
 			tag = BOL
 		}
 	}
+
 	default = no
 	focus = {
 		id = BOL_the_great_depression
@@ -14,7 +15,10 @@ focus_tree = {
 		cost = 10.00
 		x = 36
 		y = 0
-
+		completion_reward = {
+		add_political_power = -10
+		###add_ideas = my_idea###
+		}
 	}
 	focus = {
 		id = BOL_bolivia_in_turmoil
@@ -22,15 +26,25 @@ focus_tree = {
 		cost = 10.00
 		x = 19
 		y = 0
-
 	}
+
+	completion_reward = {
+	always = no
+			
+		
+	}
+
 	focus = {
 		id = BOL_memories_of_the_chaco_war
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10.00
 		x = 47
 		y = 0
+	completion_reward = {
 
+		army_experience = 10
+
+		}
 	}
 	focus = {
 		id = BOL_found_the_airforce
