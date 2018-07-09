@@ -3096,4 +3096,16 @@
  political.29.t:0 "Fin del conflicto civil"
  political.29.d:0 "La guerra civil que ha dividido a nuestra nación ha concluido y nuestra causa prevalece. Sin embargo, no podemos permitir que aquellos que apoyaron a nuestros adversarios sigan extendiendo su propaganda insidiosa entre la población. En los días venideros, hará falta una mano firme para que podamos permanecer unidos, preparados y fuertes contra las amenazas externas que podrían poner en peligro a nuestro gobierno en ciernes."
  political.29.a:0 "Así se hará."
+ ###################################Mod#######
+ chile.1.t:0 "Las elecciones chilenas de 1938"
+ chile.1.d:0 "Es el dia de las elecciones en Chile;nuestra gente, debe decidir a un nuevo presidente que lleve la nacion a la gloria. Los candidatos para estas elecciones son el candidato del Frente Popular, Pedro Aguirre Cerda representando al Partido Radical y el candidato de derecha Gustavo Ross representando al Partido Liberal."
+ chile.1.a:0 "!Elegir al candidato del Frente Popular,Pedro Aguirre Cerda!"
+ chile.1.b:0 "!Elegir al conservador-liberal, Gustavo Ross!"
+ bolivia.1.t:0 "Motín en el ejercito"
+ bolivia.1.d:0 "Germán Busch, un heroe de la guerra del Chaco, y sus seguidores hacia Palacio de Gobierno en La Paz demandando al gobierno, tomar temporalmente el gobierno junto con su retorica militar."
+ bolivia.1.a:0 "La democracia nos has fallado..."
+ bolivia.1.b:0 "!Destruir esta revuelta¡"
+ bolivia.2.t:0 "Divisiones en la Junta de Gobierno"
+ bolivia.2.d:0 "Carlos Quintanilla ha imaginado una nueva Bolivia; Quintanilla y sus seguidores planean devolver Bolivia a un estado neutral."
+ bolivia.2.a:0 "Devolveremos el gobierno a un estado neutral..."
  
