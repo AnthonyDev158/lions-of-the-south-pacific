@@ -19,9 +19,11 @@ state={
 		}
 		add_core_of = PRU
 		victory_points = {
-			12997 20
+			12997 30
 		}
-
+		victory_points = {
+		    13206 10
+        }
 	}
 
 	provinces={
