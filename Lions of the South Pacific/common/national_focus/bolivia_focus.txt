@@ -1,0 +1,1363 @@
+focus_tree = {
+	id = bolivia_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOL
+		}
+	}
+	default = no
+	focus = {
+		id = BOL_the_great_depression
+		icon = GFX_RootoutFunding
+		cost = 10.00
+		x = 36
+		y = 0
+			completion_reward = {
+					add_political_power = -10
+				}
+
+	}
+	focus = {
+		id = BOL_bolivia_in_turmoil
+		icon = GFX_MilitaryGovernment
+		cost = 10.00
+		x = 19
+		y = 0
+			available = {
+					always = no
+				}
+
+	}
+	focus = {
+		id = BOL_memories_of_the_chaco_war
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		x = 47
+		y = 0
+			completion_reward = {
+					army_experience = 10
+				}
+
+	}
+	focus = {
+		id = BOL_found_the_airforce
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		x = 59
+		y = 0
+			completion_reward = {
+					air_experience = 10
+				}
+
+	}
+	focus = {
+		id = BOL_revival_of_the_navy
+		icon = GFX_Battlefleet
+		cost = 10.00
+		x = 67
+		y = 0
+
+	}
+	focus = {
+		id = BOL_the_second_chaco_war
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		x = 16
+		y = 24
+
+	}
+	focus = {
+		id = BOL_the_revoultion
+		icon = GFX_CommunistPride
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_second_chaco_war
+		}
+		mutually_exclusive = {
+			focus = BOL_revenge_for_the_chaco
+		}
+		x = 13
+		y = 25
+
+	}
+	focus = {
+		id = BOL_soviet_arms
+		icon = GFX_goal_generic_sovietagreement
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_revoultion
+		}
+		x = 11
+		y = 26
+
+	}
+	focus = {
+		id = BOL_suspend_the_contitution
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_bolivia_in_turmoil
+		}
+		x = 19
+		y = 1
+			completion_reward = {
+					add_popularity = {
+							ideology = fascism
+							popularity = 0.06
+						}
+					add_popularity = {
+							ideology = communism
+							popularity = 0.05
+						}
+				}
+
+	}
+	focus = {
+		id = BOL_nationalize_the_oil_industry
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_suspend_the_contitution
+		}
+		x = 14
+		y = 2
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_resource = {
+									type = oil
+									amount = 8
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = BOL_introduce_military_socialism
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_suspend_the_contitution
+		}
+		x = 17
+		y = 2
+			completion_reward = {
+					add_ideas = bolivian_military_socialism
+				}
+
+	}
+	focus = {
+		id = BOL_political_crackdowns
+		icon = GFX_SkullNomads
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_suspend_the_contitution
+		}
+		x = 21
+		y = 2
+			completion_reward = {
+					add_ideas = democratic_crackdowns
+					add_political_power = 35
+				}
+
+	}
+	focus = {
+		id = BOL_workers_law
+		icon = GFX_goal_continuous_repairments
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_suspend_the_contitution
+		}
+		x = 24
+		y = 2
+			completion_reward = {
+					add_ideas = workers_law
+					add_stability = .03
+				}
+
+	}
+	focus = {
+		id = BOL_Constituent_Assembly
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_political_crackdowns
+		}
+		prerequisite = {
+			focus = BOL_introduce_military_socialism
+		}
+		prerequisite = {
+			focus = BOL_workers_law
+		}
+		prerequisite = {
+			focus = BOL_nationalize_the_oil_industry
+		}
+		x = 19
+		y = 3
+			completion_reward = {
+					country_event = bolivia.2
+				}
+
+	}
+	focus = {
+		id = BOL_declare_autocracy
+		icon = GFX_focus_SAF_support_ossewabrandwag
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Constituent_Assembly
+		}
+		x = 19
+		y = 4
+			completion_reward = {
+					country_event = bolivia.3
+				}
+
+	}
+	focus = {
+		id = BOL_uniquely_Bolivian
+		icon = GFX_boliviafocus
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_declare_autocracy
+		}
+		mutually_exclusive = {
+			focus = BOL_nazi_tendencies
+		}
+		x = 16
+		y = 5
+			available = {
+					always = no
+				}
+
+	}
+	focus = {
+		id = BOL_deepen_military_socialism
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_uniquely_Bolivian
+		}
+		x = 15
+		y = 6
+			completion_reward = {
+					add_ideas = deepen_military_socialism
+				}
+
+	}
+	focus = {
+		id = BOL_conscription_by_force
+		icon = GFX_EnlistthePolice
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_uniquely_Bolivian
+		}
+		x = 17
+		y = 6
+			completion_reward = {
+					add_stability = -0.1
+					add_ideas = forceful_conscription
+				}
+
+	}
+	focus = {
+		id = BOL_form_Landesgruppe-Bolivie
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_conscription_by_force
+		}
+		prerequisite = {
+			focus = BOL_deepen_military_socialism
+		}
+		x = 16
+		y = 7
+			completion_reward = {
+					BOL = {
+							add_opinion_modifier = {
+									target = GER
+									modifier = large_increase
+								}
+						}
+					GER = {
+							add_opinion_modifier = {
+									target = BOL
+									modifier = large_increase
+								}
+						}
+					add_political_power = 75
+				}
+
+	}
+	focus = {
+		id = BOL_nazi_tendencies
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_declare_autocracy
+		}
+		mutually_exclusive = {
+			focus = BOL_uniquely_Bolivian
+		}
+		x = 22
+		y = 5
+			available = {
+					always = no
+				}
+
+	}
+	focus = {
+		id = BOL_call_in_german_advisor
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_nazi_tendencies
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = BOL_accept_openings_of_businesses
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_nazi_tendencies
+		}
+		x = 23
+		y = 6
+			completion_reward = {
+					add_ideas = accept_openings_of_businesses
+				}
+
+	}
+	focus = {
+		id = BOL_bolivian_master_race
+		icon = GFX_boliviafocus
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_accept_openings_of_businesses
+		}
+		prerequisite = {
+			focus = BOL_call_in_german_advisor
+		}
+		x = 22
+		y = 7
+			completion_reward = {
+					add_ideas = bolivian_master_race
+				}
+
+	}
+	focus = {
+		id = BOL_entrust_Quintanilla
+		icon = GFX_BOL_reinstate_quintallia
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_bolivian_master_race
+			focus = BOL_form_Landesgruppe-Bolivie
+		}
+		x = 19
+		y = 8
+			completion_reward = {
+					country_event = bolivia.4
+				}
+
+	}
+	focus = {
+		id = BOL_social_turmoil
+		icon = GFX_SkullNomads
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_great_depression
+		}
+		x = 34
+		y = 1
+
+	}
+	focus = {
+		id = BOL_appeal_to_indegenious_people
+		icon = GFX_Rally
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_social_turmoil
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = BOL_rework_failing_tin_industry
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_great_depression
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = BOL_rely_on_foreign_investments
+		icon = GFX_ReopentheStockMarkets
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_rework_failing_tin_industry
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = BOL_introduce_import_taxes
+		icon = GFX_CapitalistSystems
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_rely_on_foreign_investments
+		}
+		prerequisite = {
+			focus = BOL_appeal_to_indegenious_people
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = BOL_repair_run_down_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_introduce_import_taxes
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = BOL_increase_military_stockpile
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_introduce_import_taxes
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = BOL_foreign_tank_expedition
+		icon = GFX_TanksAcrosstheBorder
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_memories_of_the_chaco_war
+		}
+		x = 45
+		y = 1
+
+	}
+	focus = {
+		id = BOL_new_firearms
+		icon = GFX_RenewedArms
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_memories_of_the_chaco_war
+		}
+		x = 49
+		y = 1
+
+	}
+	focus = {
+		id = BOL_war_games
+		icon = GFX_Cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_new_firearms
+		}
+		prerequisite = {
+			focus = BOL_foreign_tank_expedition
+		}
+		x = 47
+		y = 2
+
+	}
+	focus = {
+		id = BOL_bring_in_foreign_generals
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_war_games
+		}
+		x = 47
+		y = 3
+
+	}
+	focus = {
+		id = BOL_peru_bolivian_research_corps
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_bring_in_foreign_generals
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = BOL_the_Morales_project
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_peru_bolivian_research_corps
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = BOL_new_radar_advancements
+		icon = GFX_goal_generic_radar
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_peru_bolivian_research_corps
+		}
+		x = 45
+		y = 5
+
+	}
+	focus = {
+		id = BOL_motorize_advancements
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_peru_bolivian_research_corps
+		}
+		x = 43
+		y = 6
+
+	}
+	focus = {
+		id = BOL_study_mistakes_in_chaco
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_bring_in_foreign_generals
+		}
+		x = 51
+		y = 4
+
+	}
+	focus = {
+		id = BOL_introduce_recruitment_quotas
+		icon = GFX_PreparetheTroops
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_study_mistakes_in_chaco
+		}
+		x = 49
+		y = 5
+
+	}
+	focus = {
+		id = BOL_surperior_numbers
+		icon = GFX_focus_generic_combined_arms
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_study_mistakes_in_chaco
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = BOL_the_new_regiment
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_surperior_numbers
+		}
+		prerequisite = {
+			focus = BOL_motorize_advancements
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = BOL_continued_supply_chains
+		icon = GFX_Agriculture_2
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_study_mistakes_in_chaco
+		}
+		x = 53
+		y = 5
+
+	}
+	focus = {
+		id = BOL_new_airports
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_found_the_airforce
+		}
+		x = 59
+		y = 1
+
+	}
+	focus = {
+		id = BOL_rival_with_peru
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_new_airports
+		}
+		x = 59
+		y = 2
+
+	}
+	focus = {
+		id = BOL_incorporate_foreign_plane_designs
+		icon = GFX_focus_jap_zero
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_rival_with_peru
+		}
+		x = 57
+		y = 3
+
+	}
+	focus = {
+		id = BOL_improve_air_doctrine
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_rival_with_peru
+		}
+		x = 61
+		y = 3
+
+	}
+	focus = {
+		id = BOL_introduce_air_supremacy_tactic
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_improve_air_doctrine
+		}
+		prerequisite = {
+			focus = BOL_incorporate_foreign_plane_designs
+		}
+		x = 59
+		y = 4
+
+	}
+	focus = {
+		id = BOL_create_the_paratroop_branch
+		icon = GFX_focus_generic_paratrooper
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_introduce_air_supremacy_tactic
+		}
+		x = 61
+		y = 5
+
+	}
+	focus = {
+		id = BOL_our_old_naval_glory
+		icon = GFX_BluewaterNavy
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_revival_of_the_navy
+		}
+		x = 67
+		y = 1
+
+	}
+	focus = {
+		id = BOL_replace_outdated_naval_doctrine
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_our_old_naval_glory
+		}
+		x = 67
+		y = 2
+
+	}
+	focus = {
+		id = BOL_salvage_old_ships
+		icon = GFX_focus_generic_steel
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_replace_outdated_naval_doctrine
+		}
+		x = 65
+		y = 3
+
+	}
+	focus = {
+		id = BOL_new_ship_designs
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_salvage_old_ships
+		}
+		x = 65
+		y = 4
+
+	}
+	focus = {
+		id = BOL_Front_de_Izquierda
+		icon = GFX_CommunistLoyalty
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_violent_uprising
+		}
+		x = 10
+		y = 14
+
+	}
+	focus = {
+		id = BOL_return_the_status_quo
+		icon = GFX_GenericPolitical
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_entrust_Quintanilla
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = BOL_reinstate_elections
+		icon = GFX_focus_generic_election
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_return_the_status_quo
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = BOL_exile_Rioja
+		icon = GFX_exile_rioja
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_return_the_status_quo
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = BOL_crack_down_on_radical_militarism
+		icon = GFX_DeadlyDeal
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Front_de_Izquierda
+		}
+		x = 14
+		y = 15
+
+	}
+	focus = {
+		id = BOL_the_Concordancia_pact
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_exile_Rioja
+		}
+		prerequisite = {
+			focus = BOL_reinstate_elections
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = BOL_agarian_reforms
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Front_de_Izquierda
+		}
+		x = 10
+		y = 18
+
+	}
+	focus = {
+		id = BOL_soviet_guarantee
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_autonomy_to_native_tribes
+		}
+		mutually_exclusive = {
+			focus = BOL_bolivian_socialism
+		}
+		x = 7
+		y = 20
+
+	}
+	focus = {
+		id = BOL_dismantle_parliament
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_crack_down_on_radical_militarism
+		}
+		x = 12
+		y = 16
+
+	}
+	focus = {
+		id = BOL_witch_hunt_military_socialists
+		icon = GFX_TheNoose
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_crack_down_on_radical_militarism
+		}
+		x = 16
+		y = 16
+
+	}
+	focus = {
+		id = BOL_autonomy_to_native_tribes
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_agarian_reforms
+		}
+		x = 10
+		y = 19
+
+	}
+	focus = {
+		id = BOL_bolivian_socialism
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_autonomy_to_native_tribes
+		}
+		mutually_exclusive = {
+			focus = BOL_soviet_guarantee
+		}
+		x = 13
+		y = 20
+
+	}
+	focus = {
+		id = BOL_new_infastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_increase_military_stockpile
+			focus = BOL_repair_run_down_factories
+		}
+		x = 36
+		y = 5
+
+	}
+	focus = {
+		id = BOL_introduce_welfare
+		icon = GFX_Aristocracy
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_new_infastructure
+		}
+		x = 36
+		y = 6
+
+	}
+	focus = {
+		id = BOL_spy_missions
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_introduce_air_supremacy_tactic
+		}
+		x = 57
+		y = 5
+
+	}
+	focus = {
+		id = BOL_marines
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_replace_outdated_naval_doctrine
+		}
+		x = 69
+		y = 3
+
+	}
+	focus = {
+		id = BOL_extensive_training
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_marines
+		}
+		x = 69
+		y = 4
+
+	}
+	focus = {
+		id = BOL_Razon_de_Patria
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_violent_uprising
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = {
+		id = BOL_La_Rosca
+		icon = GFX_focus_generic_steel
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_Concordancia_pact
+		}
+		x = 19
+		y = 12
+
+	}
+	focus = {
+		id = BOL_pro_axis_stance
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_recognize_workers_unions
+		}
+		prerequisite = {
+			focus = BOL_creation_of_a_retirement_pension
+		}
+		mutually_exclusive = {
+			focus = BOL_pro_allied_stance
+		}
+		x = 27
+		y = 19
+
+	}
+	focus = {
+		id = BOL_the_reformist_acts
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_constitutional_president
+		}
+		x = 27
+		y = 17
+
+	}
+	focus = {
+		id = BOL_recognize_workers_unions
+		icon = GFX_goal_continuous_repairments
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_reformist_acts
+		}
+		x = 29
+		y = 18
+
+	}
+	focus = {
+		id = BOL_creation_of_a_retirement_pension
+		icon = GFX_CapitalistSystems
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_reformist_acts
+		}
+		x = 21
+		y = 18
+
+	}
+	focus = {
+		id = BOL_the_constitutional_president
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_call_the_second_constitutional_convention
+		}
+		x = 27
+		y = 16
+
+	}
+	focus = {
+		id = BOL_Mita
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_recognize_workers_unions
+		}
+		x = 33
+		y = 19
+
+	}
+	focus = {
+		id = BOL_extensive_road_work
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Mita
+		}
+		x = 35
+		y = 20
+
+	}
+	focus = {
+		id = BOL_call_the_second_constitutional_convention
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Razon_de_Patria
+		}
+		x = 27
+		y = 15
+
+	}
+	focus = {
+		id = BOL_pro_allied_stance
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_recognize_workers_unions
+		}
+		prerequisite = {
+			focus = BOL_creation_of_a_retirement_pension
+		}
+		mutually_exclusive = {
+			focus = BOL_pro_axis_stance
+		}
+		x = 23
+		y = 19
+
+	}
+	focus = {
+		id = BOL_a_neutral_alliance
+		icon = GFX_GenericPolitical
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_pro_axis_stance
+			focus = BOL_pro_allied_stance
+		}
+		mutually_exclusive = {
+			focus = BOL_inviation_to_the_allies
+			focus = BOL_invitation_to_the_axis
+		}
+		x = 25
+		y = 20
+
+	}
+	focus = {
+		id = BOL_invitation_to_the_axis
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_pro_axis_stance
+		}
+		mutually_exclusive = {
+			focus = BOL_a_neutral_alliance
+		}
+		x = 29
+		y = 20
+
+	}
+	focus = {
+		id = BOL_inviation_to_the_allies
+		icon = GFX_goal_generic_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_pro_allied_stance
+		}
+		mutually_exclusive = {
+			focus = BOL_a_neutral_alliance
+		}
+		x = 21
+		y = 20
+
+	}
+	focus = {
+		id = BOL_higher_wages
+		icon = GFX_CapitalistSystems
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Mita
+		}
+		x = 31
+		y = 20
+
+	}
+	focus = {
+		id = BOL_extensive_training_regiments
+		icon = GFX_focus_chi_army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_pro_axis_stance
+			focus = BOL_a_neutral_alliance
+		}
+		x = 27
+		y = 21
+
+	}
+	focus = {
+		id = BOL_british_presence
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_pro_allied_stance
+			focus = BOL_a_neutral_alliance
+		}
+		x = 23
+		y = 21
+
+	}
+	focus = {
+		id = BOL_revenge_for_the_chaco
+		icon = GFX_Backstab
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_second_chaco_war
+		}
+		mutually_exclusive = {
+			focus = BOL_the_revoultion
+		}
+		x = 19
+		y = 25
+
+	}
+	focus = {
+		id = BOL_american_negotiations
+		icon = GFX_goal_USA_deal
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_the_revoultion
+			focus = BOL_revenge_for_the_chaco
+		}
+		x = 16
+		y = 26
+
+	}
+	focus = {
+		id = BOL_german_equipment
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_revenge_for_the_chaco
+		}
+		x = 21
+		y = 26
+
+	}
+	focus = {
+		id = BOL_fully_annex_paraguay
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_american_negotiations
+		}
+		mutually_exclusive = {
+			focus = BOL_negotiate_for_chaco
+		}
+		x = 14
+		y = 27
+
+	}
+	focus = {
+		id = BOL_negotiate_for_chaco
+		icon = GFX_RiskyDeal
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_american_negotiations
+		}
+		mutually_exclusive = {
+			focus = BOL_fully_annex_paraguay
+		}
+		x = 18
+		y = 27
+
+	}
+	focus = {
+		id = BOL_the_bolivian_chaco
+		icon = GFX_Extravagance
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_negotiate_for_chaco
+			focus = BOL_fully_annex_paraguay
+		}
+		x = 16
+		y = 28
+
+	}
+	focus = {
+		id = BOL_la_gran_revolucion
+		icon = GFX_CommunistPride
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_Front_de_Izquierda
+		}
+		x = 5
+		y = 15
+
+	}
+	focus = {
+		id = BOL_the_red_sun
+		icon = GFX_Communism3
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_la_gran_revolucion
+		}
+		x = 9
+		y = 16
+
+	}
+	focus = {
+		id = BOL_chilean_workers
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_la_gran_revolucion
+		}
+		x = 1
+		y = 16
+
+	}
+	focus = {
+		id = BOL_revolutionary_peruvians
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_la_gran_revolucion
+		}
+		x = 5
+		y = 16
+
+	}
+	focus = {
+		id = BOL_demand_the_workers_of_tarapaca
+		icon = GFX_Agression
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_revolutionary_peruvians
+			focus = BOL_chilean_workers
+		}
+		x = 3
+		y = 17
+
+	}
+	focus = {
+		id = BOL_rojos_latinos
+		icon = GFX_RedArmy
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_demand_the_workers_of_tarapaca
+		}
+		prerequisite = {
+			focus = BOL_demand_the_chaco
+		}
+		x = 5
+		y = 18
+
+	}
+	focus = {
+		id = BOL_demand_the_chaco
+		icon = GFX_BullishDiplomacy
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_revolutionary_peruvians
+			focus = BOL_the_red_sun
+		}
+		x = 7
+		y = 17
+
+	}
+	focus = {
+		id = SOV_soviet_advisors
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_soviet_guarantee
+		}
+		x = 5
+		y = 21
+
+	}
+	focus = {
+		id = BOL_support_revolutionary_militias
+		icon = GFX_Communism2
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_soviet_guarantee
+			focus = BOL_bolivian_socialism
+		}
+		x = 10
+		y = 21
+
+	}
+	focus = {
+		id = BOL_secret_revoultion
+		icon = GFX_SwingtheSword
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_bolivian_socialism
+		}
+		x = 15
+		y = 21
+
+	}
+	focus = {
+		id = BOL_propaganda_efforts
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_soviet_guarantee
+		}
+		prerequisite = {
+			focus = SOV_soviet_advisors
+		}
+		x = 3
+		y = 22
+
+	}
+	focus = {
+		id = BOL_athiest_state
+		icon = GFX_CommunistScientists
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_bolivian_socialism
+		}
+		prerequisite = {
+			focus = BOL_secret_revoultion
+		}
+		x = 17
+		y = 22
+
+	}
+	focus = {
+		id = BOL_extensive_port_efforts
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_extensive_training
+		}
+		prerequisite = {
+			focus = BOL_new_ship_designs
+		}
+		x = 67
+		y = 5
+
+	}
+	focus = {
+		id = BOL_violent_uprising
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = BOL_La_Rosca
+		}
+		x = 19
+		y = 13
+
+	}
+}

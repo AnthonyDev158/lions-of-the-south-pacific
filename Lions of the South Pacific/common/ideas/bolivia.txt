@@ -21,11 +21,148 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
-	}
+		
+		################
+		
+		bolivian_military_socialism = {
+			
+			
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.005
+				}
+			}
+			
+			################
+			
+			democratic_crackdowns = {
+			
+			
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = -0.02
+				}				
+			}
+			
+			################
+			
+			workers_law = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				}				
+			}
+			
+			################
+			
+			accept_openings_of_businesses = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				}	
+			}
+			
+			######################################################
+			
+			bolivian_master_race = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.1
+				}	
+			}
+			
+			########################################
+			
+			deepen_military_socialism = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				war_support_weekly = 0.01
+				}	
+			}
+			
+			#########################################################
+			
+			forceful_conscription = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.05
+				}	
+			}
+		}
 	political_advisor = {
         jose_maria_gutierrez = {
 
@@ -269,6 +406,5 @@ ideas = {
 			
 			traits = { naval_theorist }
 		}
-
 	}
 }

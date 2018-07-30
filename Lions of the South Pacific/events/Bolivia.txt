@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 #Bolivia Events
 ###########################
 
@@ -17,23 +17,8 @@ country_event = {
 		tag = BOL
 		date > 1936.5.16
 	}
-
-	mean_time_to_happen = {
-		days = 20
-	}
-	
 	option = {
 	    name = bolivia.1.a
-		ai_chance = {
-			factor = 60
-		}				
-        add_political_power = -100
-		add_stability = -0.02
-	}
-
-	
-	option = {
-	    name = bolivia.1.b
 		ai_chance = {
 			factor = 40
 		}
@@ -41,7 +26,7 @@ country_event = {
 		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		create_country_leader = {
-		    name = "Germán Busch"
+		    name = "David Toro"
 		    desc = "POLITICS_GERMAN_BUSCH_DESC"
 		    picture = "Busch.dds"
 		    expire = "1965.1.1"
@@ -49,8 +34,9 @@ country_event = {
 	    }
     }
 }
-# Backstabbers in the Junta!
-couantry_event = {
+
+# Constituent Assembly 
+country_event = {
     id = bolivia.2
 	title = bolivia.2.t
 	desc = bolivia.2.d
@@ -58,45 +44,42 @@ couantry_event = {
 	
     is_triggered_only = yes
 	
-	trigger = {
-        tag = BOL
-        date > 1939.8.23
-        has_government = neutrality
-	}
-	
-	mean_time_to_happen = {
-		days = 20
-	}
-	
 	option = {
 	    name = bolivia.2.a
 		ai_chance = {
-			factor = 60
-		}				
+			factor = 10
+		}
 		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		create_country_leader = {
-		    name = "Carlos Quintanilla"
-		    desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
-		    picture = "Quintanilla.dds"
+		    name = "Germán Busch Becerra"
+		    desc = "POLITICS_GERMAN_BUSCH_DESC"
+		    picture = "Busch.dds"
 		    expire = "1965.1.1"
 		    ideology = oligarchism
-		}
-	}
+	    }
+    }
 	
 	option = {
 	    name = bolivia.2.b
 		ai_chance = {
-			factor = 40
+			factor = 0
 		}
-        add_political_power = -50
-		add_stability = -0.5
-	}
+		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		create_country_leader = {
+		    name = "David Toro"
+		    desc = "POLITICS_DAVID_TORO_DESC"
+		    picture = "Toro.dds"
+		    expire = "1965.1.1"
+		    ideology = oligarchism
+	    }
+    }
 }
-
-# Consitituent Assembly
+	
+# Accusations
 country_event = {
-    id = bolivia.3
+	id = bolivia.3
 	title = bolivia.3.t
 	desc = bolivia.3.d
 	picture = news_event_006
@@ -106,30 +89,42 @@ country_event = {
 	option = {
 	    name = bolivia.3.a
 		ai_chance = {
-			factor = 34
-		}				
-        add_political_power = +10
-        
+			factor = 10
+		}
+		
+		complete_national_focus = BOL_uniquely_Bolivian
+	    
 	}
-
 	option = {
 	    name = bolivia.3.b
 		ai_chance = {
-			factor = 33
+			factor = 0
 		}
-        add_political_power = +15
-
-	}
-
-	option = {
-	    name = bolivia.3.c
-		ai_chance = {
-			factor = 33
-		}
-        add_political_power = +5
-		
+		complete_national_focus = BOL_nazi_tendencies
 	    }
     }
-
 	
+# Entrusting Quintanilla
+country_event = {
+	id = bolivia.4
+	title = bolivia.4.t
+	desc = bolivia.4.d
+	picture = news_event_006
 	
+    is_triggered_only = yes
+	
+	option = {
+	    name = bolivia.4.a
+		ai_chance = {
+			factor = 10
+		}
+		create_country_leader = {
+			name = "Carlos Quintanilla"
+		    desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
+		    picture = "Quintanilla.dds"
+		    expire = "1965.1.1"
+		    ideology = oligarchism
+	    }
+    }
+}
+		
