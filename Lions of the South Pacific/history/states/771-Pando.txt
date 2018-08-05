@@ -2,7 +2,7 @@
 state={
 	id=771
 	name="STATE_771" # Pando
-	manpower = 912
+	manpower = 2431
 	
 	state_category = pastoral
 

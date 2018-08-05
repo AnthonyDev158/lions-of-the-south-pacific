@@ -1,0 +1,28 @@
+
+state={
+	id=772
+	name="STATE_772" # Potosi y Oruro
+	manpower = 8438
+	
+	state_category = rural
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		add_core_of = BOL
+		victory_points = {
+			2174 12
+		}
+		victory_points = {
+			10952 7
+		}
+	}
+
+	provinces={
+		10952 2174
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=773
+	name="STATE_773" # Chuquisaca
+	manpower = 10321
+	
+	state_category = rural
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		add_core_of = BOL
+	}
+
+	provinces={
+		10987 12979 5179 12930
+	}
+}
