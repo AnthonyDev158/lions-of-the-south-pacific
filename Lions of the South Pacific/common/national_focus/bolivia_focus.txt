@@ -725,7 +725,12 @@ focus_tree = {
 		}
 		x = 19
 		y = 9
-
+		completion_reward = {
+			add_popularity = {
+			ideology = neutrality
+			popularity = 0.1
+			}
+		}	
 	}
 	focus = {
 		id = BOL_reinstate_elections
@@ -736,7 +741,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 10
-
+		completion_reward = { 
+			add_ideas = BOL_reinstitution_of_elections 
+		}
 	}
 	focus = {
 		id = BOL_exile_Rioja
@@ -772,7 +779,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 11
-
+		completion_reward = {
+			country_event = bolivia.5
+		}
 	}
 	focus = {
 		id = BOL_agarian_reforms
@@ -922,7 +931,15 @@ focus_tree = {
 		}
 		x = 19
 		y = 12
-
+		completion_reward = {
+		random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 25
+				}
+			}
+			add_ideas = BOL_productive_workforce
+		}
 	}
 	focus = {
 		id = BOL_pro_axis_stance

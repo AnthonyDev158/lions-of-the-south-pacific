@@ -142,6 +142,42 @@ ideas = {
 				war_support_weekly = 0.01
 				}	
 			}
+			###########################
+			BOL_reinstitution_of_elections = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.10
+				}	
+			}
+			########################################
+			BOL_productive_workforce = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				}	
+			}
 			
 			#########################################################
 			

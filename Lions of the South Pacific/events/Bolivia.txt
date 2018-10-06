@@ -127,4 +127,27 @@ country_event = {
 	    }
     }
 }
+
+country_event = {
+	id = bolivia.5
+	title = bolivia.5.t
+	desc = bolivia.5.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = bolivia.4.a
+		ai_chance = {
+			factor = 10
+		}
+		create_country_leader = {
+			name = "Enrique Peñaranda"
+		    desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
+		    picture = "Penaranda.dds"
+		    expire = "1965.1.1"
+		    ideology = oligarchism
+	    }
+    }
+}
 		
