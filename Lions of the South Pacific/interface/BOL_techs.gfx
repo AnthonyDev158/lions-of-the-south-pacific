@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	#Bolivian Planes
+
+	SpriteType = {
+		name = "GFX_BOL_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/BOL_fighter0.tga"
+    }
+	
+}
+

@@ -1682,3 +1682,7 @@
   #######Peruvian Planes###
  PRU_fighter_equipment_2:0 "North American 50 'Torito'"
  PRU_fighter_equipment_2_short:0 "NA-50 'Torito'"
+ 
+ #######Bolivian Planes###
+ BOL_fighter_equipment_0:0 "Vickers Scout 143"
+ BOL_fighter_equipment_0_short:0 "Bolivian Scout"
