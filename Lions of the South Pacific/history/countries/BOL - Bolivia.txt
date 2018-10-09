@@ -142,7 +142,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Víctor Paz Estenssoro"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "Estenssoro.dds"
+	picture = "Estenssoro.png"
 	expire = "1965.1.1"
 	ideology = anti_revisionism
 	traits = {
@@ -164,7 +164,7 @@ create_corps_commander = {
 	
 create_corps_commander = {
     name = "Enrique Peñaranda"
-    picture = "Penaranda.dds"
+    picture = "Penaranda.png"
     traits = { infantry_officer career_officer }
     skill = 2
 	attack_skill = 3
