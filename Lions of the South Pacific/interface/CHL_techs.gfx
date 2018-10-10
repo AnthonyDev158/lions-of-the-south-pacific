@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	#Chile Infantry Equ.
+
+	SpriteType = {
+		name = "GFX_CHL_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CHL_basic_equipment.dds"
+    }
+	
+}
+
