@@ -1,11 +1,16 @@
 spriteTypes = {
 
-	#Bolivian Planes
+	#Bolivian Techs
 
 	SpriteType = {
 		name = "GFX_BOL_early_fighter_medium"
 		texturefile = "gfx/interface/technologies/BOL_fighter0.tga"
     }
+	
+	SpriteType = {
+		name = "GFX_BOL_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/BOL_basic_light_tank.tga"
+	}
 	
 }
 

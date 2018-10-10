@@ -3312,6 +3312,10 @@
  CHL_infantry_equipment_0_short:0 "Mauser M1912"
 
 ###############################################
+BOL_light_tank_equipment_1:0 "Vickers Armstrong Mk. EE de 65mm"
+BOL_light_tank_equipment_1_short:0 "Vickers 6-Ton"
+
+#######
  tank_armor_upgrade:0 "Armor"
  tank_armor_upgrade_desc:0 "Better armor than your enemies can penetrate is a huge advantage to your divisions but is probably going to slow you down."
  tank_gun_upgrade:0 "Main Gun"
