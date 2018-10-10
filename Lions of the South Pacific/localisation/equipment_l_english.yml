@@ -3316,6 +3316,8 @@ BOL_light_tank_equipment_1:0 "Vickers Armstrong Mk. EE de 65mm"
 BOL_light_tank_equipment_1_short:0 "Vickers 6-Ton"
 BOL_infantry_equipment_0:0 "Fusil Mauser Modelo Boliviano 1895"
 BOL_infantry_equipment_0_short:0 "Fusil Mauser Modelo Boliviano 1895"
+BOL_infantry_equipment_1:0 "ZK-383"
+BOL_infantry_equipment_1_short:0 "ZK-383"
 #######
  tank_armor_upgrade:0 "Armor"
  tank_armor_upgrade_desc:0 "Better armor than your enemies can penetrate is a huge advantage to your divisions but is probably going to slow you down."
