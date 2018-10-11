@@ -768,9 +768,7 @@ focus_tree = {
 		}
 		x = 14
 		y = 15
-	completion_reward = { 
-		add_political_power = 120
-		army_experience = 5
+
 	}
 	focus = {
 		id = BOL_the_Concordancia_pact
@@ -822,9 +820,7 @@ focus_tree = {
 		}
 		x = 12
 		y = 16
-	completion_reward = {
-		add_stability = -.10
-		add_political_power = 300
+
 	}
 	focus = {
 		id = BOL_witch_hunt_military_socialists
