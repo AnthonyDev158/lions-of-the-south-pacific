@@ -714,6 +714,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = BOL_Razon_de_Patria
+			}
 		x = 10
 		y = 14
 
