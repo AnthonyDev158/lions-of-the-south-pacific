@@ -12941,7 +12941,6 @@ news_event = {
 	
 	trigger = {
 		CHL = { controls_state = 303 }
-		303 = { is_owned_by = PRU }
 		CHL = { has_war_with = PRU }
 		NOT = { has_global_flag = fall_of_lima_chl }
 	}
