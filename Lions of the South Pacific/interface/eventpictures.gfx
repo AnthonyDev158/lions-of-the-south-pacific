@@ -1956,6 +1956,10 @@ spriteTypes = {
 	    name = "GFX_report_event_chile_nacista_after"
 		texturefile = "gfx/event_pictures/report_event_chile_nacista_after.dds"
 	}
+	spriteType = {
+	    name = "GFX_news_event_fall_of_lima_chile"
+		texturefile = "gfx/event_pictures/news_event_fall_of_lima_chile.dds"
+	}
 	
 }
 	

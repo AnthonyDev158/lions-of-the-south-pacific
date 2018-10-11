@@ -12935,7 +12935,7 @@ news_event = {
 	id = news.334
 	title = news.334.t
 	desc = news.334.d
-	picture = GFX_news_event_soldiers_marching
+	picture = GFX_news_event_fall_of_lima_chile
 	
 	major = yes
 	
