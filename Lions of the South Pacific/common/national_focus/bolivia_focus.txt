@@ -712,6 +712,8 @@ focus_tree = {
 		prerequisite = {
 			focus = BOL_violent_uprising
 		}
+		mutually_exclusive = {
+			focus = BOL_Razon_de_Patria
 		x = 10
 		y = 14
 
@@ -920,7 +922,9 @@ focus_tree = {
 		}
 		x = 27
 		y = 14
-
+		mutually_exclusive = {
+			focus = BOL_Front_de_Izquierda
+		}
 	}
 	focus = {
 		id = BOL_La_Rosca
