@@ -12998,15 +12998,14 @@ news_event = {
 	option = {
 		name = news.335.a
 		trigger = {
-				TAG = VEN
-				TAG = COL
-				TAG = ECU
-				TAG = BOL
-				TAG = BRA
-				TAG = ARG
-				TAG = URG
-				TAG = PAR
-			}
+			TAG = VEN
+			TAG = COL
+			TAG = ECU
+			TAG = BOL
+			TAG = BRA
+			TAG = ARG
+			TAG = URG
+			TAG = PAR
 		}
 	}
 	option = {
