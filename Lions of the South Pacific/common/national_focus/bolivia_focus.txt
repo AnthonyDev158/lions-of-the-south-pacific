@@ -8,6 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
+	
 	focus = {
 		id = BOL_the_great_depression
 		icon = GFX_RootoutFunding
@@ -15,9 +16,8 @@ focus_tree = {
 		x = 36
 		y = 0
 			completion_reward = {
-					add_political_power = -10
-				}
-
+				add_political_power = -10
+			}
 	}
 	focus = {
 		id = BOL_bolivia_in_turmoil
@@ -183,8 +183,10 @@ focus_tree = {
 		cost = 10.00
 		x = 16
 		y = 24
-
-	}
+		available = {
+					always = no
+				}
+		}
 	focus = {
 		id = BOL_the_revoultion
 		icon = GFX_CommunistPride
@@ -197,7 +199,12 @@ focus_tree = {
 		}
 		x = 13
 		y = 25
-
+		
+	completion_reward = {
+		add_relation_modifier = {
+		target = SOV
+		modifier = BOL_the_revolution
+		}
 	}
 	focus = {
 		id = BOL_soviet_arms
@@ -329,7 +336,6 @@ focus_tree = {
 			completion_reward = {
 					country_event = bolivia.3
 				}
-
 	}
 	focus = {
 		id = BOL_uniquely_Bolivian
@@ -446,7 +452,6 @@ focus_tree = {
 			completion_reward = {
 					add_ideas = accept_openings_of_businesses
 				}
-
 	}
 	focus = {
 		id = BOL_bolivian_master_race
@@ -463,7 +468,6 @@ focus_tree = {
 			completion_reward = {
 					add_ideas = bolivian_master_race
 				}
-
 	}
 	focus = {
 		id = BOL_entrust_Quintanilla
@@ -489,7 +493,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 1
-
+	completion_reward = {
+		add_ideas = BOL_social_turmoil
+		}
 	}
 	focus = {
 		id = BOL_appeal_to_indegenious_people
@@ -511,7 +517,14 @@ focus_tree = {
 		}
 		x = 38
 		y = 1
-
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 10
+				}
+			}
+		}
 	}
 	focus = {
 		id = BOL_rely_on_foreign_investments
@@ -522,7 +535,10 @@ focus_tree = {
 		}
 		x = 38
 		y = 2
-
+	completion_reward = { 
+		add_stability = -0.1
+		add_ideas = BOL_foreign_investments
+		}
 	}
 	focus = {
 		id = BOL_introduce_import_taxes
@@ -536,7 +552,9 @@ focus_tree = {
 		}
 		x = 36
 		y = 3
-
+	completion_reward = {
+		add_ideas = BOL_import_taxes
+		}
 	}
 	focus = {
 		id = BOL_repair_run_down_factories

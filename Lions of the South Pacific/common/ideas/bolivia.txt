@@ -179,7 +179,67 @@ ideas = {
 				}	
 			}
 			
+			###########################
+			BOL_social_turmoil = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.25
+				research_time_factor = -0.03
+				}	
+			}
+			
 			#########################################################
+			
+			BOL_foreign_investments = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				}	
+			}
+			
+			#########################################################
+			
+			BOL_import_taxes = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				economy_cost_factor = -0.25
+				}	
+			}
+			
+			############################################
 			
 			forceful_conscription = {
 			
