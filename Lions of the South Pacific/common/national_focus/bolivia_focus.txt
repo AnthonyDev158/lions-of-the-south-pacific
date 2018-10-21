@@ -787,7 +787,10 @@ focus_tree = {
 		}
 		x = 67
 		y = 1
-
+	completion_reward = { 
+		add_war_support = 0.1
+		add_stability = 0.25
+		}
 	}
 	focus = {
 		id = BOL_replace_outdated_naval_doctrine
@@ -798,8 +801,15 @@ focus_tree = {
 		}
 		x = 67
 		y = 2
-
-	}
+	completion_reward = {
+	add_tech_bonus = {
+                name = BOL_replace_outdated_naval_doctrine
+                bonus = 1.0
+                uses = 2
+                category =naval_doctrine
+                }
+			}
+		}
 	focus = {
 		id = BOL_salvage_old_ships
 		icon = GFX_focus_generic_steel
