@@ -173,6 +173,39 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+    name = "Gualberto Villarroel"
+    picture = "Villarroel.png"
+    traits = { Harsh_Leader  Armor_Officer }
+    skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Julio Sanjinéz"
+    picture = "Julio.tga"
+    traits = { trait_engineer  Brilliant_Strategist }
+    skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "José Leonardo Lanza"
+    picture = "Lanza.tga"
+    traits = { war_hero }
+    skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 1939.1.1 = {
 	set_politics = {
 
