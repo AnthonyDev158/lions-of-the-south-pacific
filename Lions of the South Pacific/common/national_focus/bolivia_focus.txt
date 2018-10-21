@@ -201,11 +201,20 @@ focus_tree = {
 		y = 25
 		
 	completion_reward = {
-		add_relation_modifier = {
-		target = SOV
-		modifier = BOL_the_revolution
-		}
-	}
+			BOL = {
+				add_opinion_modifier = {
+				target = SOV
+				modifier = large_increase
+						}
+					}
+				SOV = {
+						add_opinion_modifier = {
+								target = BOL
+								modifier = large_increase
+							}
+						}
+					}
+				}
 	focus = {
 		id = BOL_soviet_arms
 		icon = GFX_goal_generic_sovietagreement
