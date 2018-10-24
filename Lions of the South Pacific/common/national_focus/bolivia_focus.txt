@@ -753,7 +753,6 @@ completion_reward = {
 					bonus = 0.5
 					uses = 1
 					category = land_doctrine
-					
 				}
 			}
 		}
@@ -766,8 +765,10 @@ completion_reward = {
 		}
 		x = 49
 		y = 5
-
-	}
+		completion_reward = { 
+			add_ideas = BOL_bolivian_recruitment_quotas
+			}
+		}
 	focus = {
 		id = BOL_surperior_numbers
 		icon = GFX_focus_generic_combined_arms
@@ -777,7 +778,9 @@ completion_reward = {
 		}
 		x = 51
 		y = 6
-
+	completion_reward = {
+		add_ideas = BOL_surperior_numbers
+		}
 	}
 	focus = {
 		id = BOL_the_new_regiment
