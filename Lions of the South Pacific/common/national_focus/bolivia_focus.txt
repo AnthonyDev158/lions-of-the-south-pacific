@@ -574,8 +574,17 @@ focus_tree = {
 		}
 		x = 34
 		y = 4
-
-	}
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 2	
+				}
+			}
+		}
 	focus = {
 		id = BOL_increase_military_stockpile
 		icon = GFX_goal_generic_construct_mil_factory
@@ -585,8 +594,17 @@ focus_tree = {
 		}
 		x = 38
 		y = 4
-
-	}
+		completion_reward = {
+			random_owned_controlled_state = {	
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+					}
+				add_extra_state_shared_building_slots = 2	
+				}
+			}
+		}
 	focus = {
 		id = BOL_foreign_tank_expedition
 		icon = GFX_TanksAcrosstheBorder
@@ -609,6 +627,7 @@ focus_tree = {
 		y = 1
 
 	}
+	
 	focus = {
 		id = BOL_war_games
 		icon = GFX_Cavalry
@@ -621,8 +640,17 @@ focus_tree = {
 		}
 		x = 47
 		y = 2
-
-	}
+	completion_reward = {
+		army_experience = 5
+				add_tech_bonus = {
+					name = land_doc_bonus
+					bonus = 0.5
+					uses = 1
+					category = land_doctrine
+				}
+			}
+		}
+	
 	focus = {
 		id = BOL_bring_in_foreign_generals
 		icon = GFX_focus_generic_military_mission
@@ -632,7 +660,16 @@ focus_tree = {
 		}
 		x = 47
 		y = 3
-
+	completion_reward = {
+	army_experience = 45
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+				
+			}
+		}
 	}
 	focus = {
 		id = BOL_peru_bolivian_research_corps
@@ -654,7 +691,13 @@ focus_tree = {
 		}
 		x = 41
 		y = 5
-
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 0.5
+				category = nuclear
+			}
+		}
 	}
 	focus = {
 		id = BOL_new_radar_advancements
@@ -665,8 +708,17 @@ focus_tree = {
 		}
 		x = 45
 		y = 5
-
+completion_reward = {
+			add_tech_bonus = {
+				name = BOL_new_radar_advancements
+				uses = 2
+				bonus = 0.5
+				category = electronics
+				category = support_tech
+			}
+		}
 	}
+	
 	focus = {
 		id = BOL_motorize_advancements
 		icon = GFX_goal_generic_army_motorized
@@ -676,8 +728,16 @@ focus_tree = {
 		}
 		x = 43
 		y = 6
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
 	}
+	
 	focus = {
 		id = BOL_study_mistakes_in_chaco
 		icon = GFX_goal_generic_intelligence_exchange
@@ -687,8 +747,16 @@ focus_tree = {
 		}
 		x = 51
 		y = 4
-
-	}
+	completion_reward = { 
+		add_tech_bonus = {
+					name = land_doc_bonus
+					bonus = 0.5
+					uses = 1
+					category = land_doctrine
+					
+				}
+			}
+		}
 	focus = {
 		id = BOL_introduce_recruitment_quotas
 		icon = GFX_PreparetheTroops
