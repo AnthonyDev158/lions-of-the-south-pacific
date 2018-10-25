@@ -128,6 +128,7 @@ country_event = {
     }
 }
 
+#Concordia Pact
 country_event = {
 	id = bolivia.5
 	title = bolivia.5.t
@@ -137,7 +138,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-	    name = bolivia.4.a
+	    name = bolivia.5.a
 		ai_chance = {
 			factor = 10
 		}
@@ -150,4 +151,93 @@ country_event = {
 	    }
     }
 }
-		
+
+#German Advisor
+country_event = {
+	id = bolivia.6
+	title = bolivia.6.t
+	desc = bolivia.6.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = bolivia.6.a
+		ai_chance = {
+			factor = 10
+		}
+		GER = {
+		country_event = BOL_diplamtic.1
+			}
+		}
+	}
+
+#German Advisor (Germany recieves)
+country_event = {
+	id = BOL_diplamtic.1 
+	title = BOL_diplamtic.1.t 
+	desc = BOL_diplamtic.1.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = BOL_diplamtic.1.a
+	ai_chance = {
+			factor = 100
+		}
+
+		country_event = {
+			id = bolivia.7
+		 }
+		 send_equipment = {
+			equipment = infantry_equipment
+			amount = 1500
+				target = BOL
+				}
+			}
+	option = {
+	name = BOL_diplamtic.1.b
+	ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = bolivia.8
+		 }
+	}
+}
+		 
+##########
+#German Advisor (Accepted)
+country_event = {
+	id = bolivia.7
+	title = bolivia.7.t
+	desc = bolivia.7.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = bolivia.7.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+##########
+#German Advisor (Declined)
+country_event = {
+	id = bolivia.8
+	title = bolivia.8.t
+	desc = bolivia.8.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	    name = bolivia.8.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}

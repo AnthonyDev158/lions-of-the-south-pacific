@@ -447,7 +447,7 @@ focus_tree = {
 		}
 		x = 21
 		y = 6
-
+	
 	}
 	focus = {
 		id = BOL_accept_openings_of_businesses
@@ -1396,7 +1396,9 @@ completion_reward = {
 		}
 		x = 21
 		y = 26
-
+	completion_reward = {
+		country_event = bolivia.6
+		}
 	}
 	focus = {
 		id = BOL_fully_annex_paraguay
