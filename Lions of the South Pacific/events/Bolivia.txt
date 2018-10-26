@@ -167,22 +167,22 @@ country_event = {
 			factor = 10
 		}
 		GER = {
-		country_event = BOL_diplamtic.1
+		country_event = BOL_diplomatic.1
 			}
 		}
 	}
 
 #German Advisor (Germany recieves)
 country_event = {
-	id = BOL_diplamtic.1 
-	title = BOL_diplamtic.1.t 
-	desc = BOL_diplamtic.1.d
+	id = BOL_diplomatic.1 
+	title = BOL_diplomatic.1.t 
+	desc = BOL_diplomatic.1.d
 	picture = news_event_006
 	
 	is_triggered_only = yes
 	
 	option = {
-	name = BOL_diplamtic.1.a
+	name = BOL_diplomatic.1.a
 	ai_chance = {
 			factor = 100
 		}
@@ -196,8 +196,9 @@ country_event = {
 				target = BOL
 				}
 			}
+			
 	option = {
-	name = BOL_diplamtic.1.b
+	name = BOL_diplomatic.1.b
 	ai_chance = {
 			factor = 0
 		}
