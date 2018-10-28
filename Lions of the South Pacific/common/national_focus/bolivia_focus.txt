@@ -625,9 +625,15 @@ focus_tree = {
 		}
 		x = 49
 		y = 1
-
+		
+	completion_reward = {
+		add_tech_bonus = {
+		bonus = 0.5
+		uses = 1
+		category = infantry_weapons
+		}
 	}
-	
+}
 	focus = {
 		id = BOL_war_games
 		icon = GFX_Cavalry
