@@ -280,6 +280,47 @@ ideas = {
 			
 			#######################
 			
+			BOL_improved_regiments = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+				}	
+			}
+			
+			#######################
+			
+			BOL_supply_improvement = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.20
+				}	
+			}
+			
+			#######################
+			
 			forceful_conscription = {
 			
 			
