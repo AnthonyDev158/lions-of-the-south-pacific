@@ -804,7 +804,6 @@ completion_reward = {
 			add_ideas = BOL_improved_regiments
 			}
 		}
-	}
 	focus = {
 		id = BOL_continued_supply_chains
 		icon = GFX_Agriculture_2
