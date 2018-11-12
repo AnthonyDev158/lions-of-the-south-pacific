@@ -515,7 +515,10 @@ focus_tree = {
 		}
 		x = 34
 		y = 2
-
+	completion_reward = {
+		add_war_support = 0.15
+		add_stability = 0.1
+		}
 	}
 	focus = {
 		id = BOL_rework_failing_tin_industry
@@ -614,8 +617,14 @@ focus_tree = {
 		}
 		x = 45
 		y = 1
-
-	}
+completion_reward = {
+				add_tech_bonus = {
+						bonus = 0.35
+						uses = 1
+						category = armor
+					}
+				}
+			}
 	focus = {
 		id = BOL_new_firearms
 		icon = GFX_RenewedArms

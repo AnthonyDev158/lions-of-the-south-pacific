@@ -1375,7 +1375,7 @@ spriteTypes = {
 	}	
 	SpriteType = {
 	    name = "boliviafocus"
-		texturefile = "gfx/interface/goals/boliviafocus.dds"
+		texturefile = "gfx/interface/goals/boliviafocus.tga"
 	}	
 	SpriteType = {
 	    name = "mobilize_chilean"
