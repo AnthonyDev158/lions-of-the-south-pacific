@@ -12985,20 +12985,22 @@ news_event = {
 		CHL = { controls_state = 765 }
 		CHL = { has_war_with = PRU }
 		NOT = { has_global_flag = fall_of_tacna_chl }
-		TAG = VEN
-		TAG = COL
-		TAG = ECU
-		TAG = BOL
-		TAG = BRA
-		TAG = ARG
-		TAG = URG
-		TAG = PAR
-		TAG = PRU
-		TAG = CHL
+		AND = {
+		    TAG = PRU 
+		        OR = { TAG = VEN }
+			       OR = { TAG = COL }
+			          OR = { TAG = ECU }
+				         OR = { TAG = BOL }
+					        OR = { TAG = BRA }
+						       OR = { TAG = URG }
+						          OR = { TAG = PAR }
+							         OR = { TAG = ARG }
+								        OR = { TAG = CHL}
+        }	 
 	}
 	
 	immediate = {
-		set_country_flag = fall_of_tacna_chl
+		set_global_flag = fall_of_tacna_chl
 	}
 	
 	mean_time_to_happen = {
