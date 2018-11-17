@@ -1216,6 +1216,7 @@ completion_reward = {
 		popularity = .25
 		}
 		add_ideas = BOL_power_to_the_proletariat
+		}
 	}
 	focus = {
 		id = BOL_new_infastructure
