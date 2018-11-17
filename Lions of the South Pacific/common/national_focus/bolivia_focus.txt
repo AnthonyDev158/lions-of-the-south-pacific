@@ -1131,7 +1131,8 @@ completion_reward = {
 		}
 		x = 10
 		y = 18
-	comple
+	completion_reward = {
+	add_ideas = BOL_agarian_reforms
 	}
 	focus = {
 		id = BOL_soviet_guarantee
