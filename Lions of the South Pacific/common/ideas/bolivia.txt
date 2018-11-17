@@ -335,7 +335,65 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				supply_consumption_factor = -0.20
+				MONTHLY_POPULATION = 0.10
+
+				}	
+			}
+			
+			####################
+			
+			BOL_power_to_the_proletariat = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				}	
+			}
+			
+			#######
+			BOL_spy_missions = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+					encryption_factor = 0.1
+				}	
+			}
+			
+			#######
+			BOL_professional_army = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				minimum_training_level = -0.05
 				}	
 			}
 			
