@@ -188,7 +188,7 @@ create_corps_commander = {
     name = "Julio Sanjinéz"
     picture = "Julio.tga"
     traits = { trait_engineer  Brilliant_Strategist }
-    skill = 2
+    skill = 1
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
@@ -204,6 +204,17 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
+}
+
+create_corps_commander = {
+    name = "Bernardino Bilbao Rioja"
+    picture = "bilbao.tga"
+    traits = { Guerilla_Fighter trickster Politically_Connected Brilliant_Strategist }
+    skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 1939.1.1 = {

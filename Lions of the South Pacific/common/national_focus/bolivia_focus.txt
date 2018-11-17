@@ -1383,10 +1383,9 @@ completion_reward = {
 		x = 27
 		y = 17
 	completion_reward = {
-		add_stability = .5
+		add_stability = .05
 			}
 		}
-	}
 	focus = {
 		id = BOL_recognize_workers_unions
 		icon = GFX_goal_continuous_repairments
