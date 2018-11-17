@@ -1362,11 +1362,11 @@ completion_reward = {
 			USA = {
 					add_opinion_modifier = {
 							target = BOL
-								modifier = hostile_status
+								modifier = pact_against_us
 			BOL = {
 					add_opinion_modifier = {
 							target = USA
-								modifier = hostile_status
+								modifier = pact_against_us
 								}
 							}
 						}
@@ -1396,7 +1396,7 @@ completion_reward = {
 		x = 29
 		y = 18
 	completion_reward = {
-		add_stability = -.5
+		add_stability = -0.05
 		add_ideas = BOL_workers_unions
 		}
 	}
