@@ -861,8 +861,15 @@ completion_reward = {
 		}
 		x = 59
 		y = 2
-
-	}
+	completion_reward = {
+		diplomatic_relation = {
+			country = PRU
+			relation = unstable_alliance
+			active = no
+				}
+			add_political_power = 100
+			}
+		}
 	focus = {
 		id = BOL_incorporate_foreign_plane_designs
 		icon = GFX_focus_jap_zero
@@ -872,7 +879,20 @@ completion_reward = {
 		}
 		x = 57
 		y = 3
-
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
+		}
 	}
 	focus = {
 		id = BOL_improve_air_doctrine
@@ -883,7 +903,14 @@ completion_reward = {
 		}
 		x = 61
 		y = 3
-
+		completion_reward = { 
+		add_tech_bonus = {
+				name =  air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
 	}
 	focus = {
 		id = BOL_introduce_air_supremacy_tactic
@@ -897,8 +924,15 @@ completion_reward = {
 		}
 		x = 59
 		y = 4
-
-	}
+	completion_reward = {
+		add_tech_bonus = {
+					name =  air_doc_bonus
+					bonus = 0.5
+					uses = 1
+					category = air_doctrine
+				}
+			}
+		}
 	focus = {
 		id = BOL_create_the_paratroop_branch
 		icon = GFX_focus_generic_paratrooper
@@ -908,7 +942,18 @@ completion_reward = {
 		}
 		x = 61
 		y = 5
-
+		
+		completion_reward = {
+			add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				
+			}
+		}
 	}
 	focus = {
 		id = BOL_our_old_naval_glory
@@ -920,8 +965,8 @@ completion_reward = {
 		x = 67
 		y = 1
 	completion_reward = { 
-		add_war_support = 0.1
-		add_stability = 0.25
+		add_war_support = 0.35
+		add_stability = 0.55
 		}
 	}
 	focus = {
@@ -951,7 +996,14 @@ completion_reward = {
 		}
 		x = 65
 		y = 3
-
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_resource = {
+			type = steel
+			amount = 10
+				}
+			}
+		}
 	}
 	focus = {
 		id = BOL_new_ship_designs
@@ -962,7 +1014,25 @@ completion_reward = {
 		}
 		x = 65
 		y = 4
-
+	completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = new_ship_designs
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
+			}
+		}
 	}
 	focus = {
 		id = BOL_Front_de_Izquierda
@@ -1016,7 +1086,8 @@ completion_reward = {
 		}
 		x = 21
 		y = 10
-
+	
+	
 	}
 	focus = {
 		id = BOL_crack_down_on_radical_militarism
@@ -1027,8 +1098,14 @@ completion_reward = {
 		}
 		x = 14
 		y = 15
-
-	}
+	completion_reward = {
+			add_popularity = {
+			ideology = fascism
+			popularity = -0.10
+		}
+		add_political_power = 120
+				}
+			}
 	focus = {
 		id = BOL_the_Concordancia_pact
 		icon = GFX_goal_generic_dangerous_deal
@@ -1054,7 +1131,7 @@ completion_reward = {
 		}
 		x = 10
 		y = 18
-
+	comple
 	}
 	focus = {
 		id = BOL_soviet_guarantee
