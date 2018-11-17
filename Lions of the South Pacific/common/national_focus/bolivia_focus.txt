@@ -1345,8 +1345,33 @@ completion_reward = {
 		}
 		x = 27
 		y = 19
-
-	}
+	completion_reward = {
+			BOL = {
+					add_opinion_modifier = {
+							target = GER
+								modifier = large_increase
+								}
+						}
+			GER = {
+					add_opinion_modifier = {
+						target = BOL
+							modifier = large_increase
+							}
+					}
+			USA = {
+					add_opinion_modifier = {
+							target = BOL
+								modifier = hostile_status
+			BOL = {
+					add_opinion_modifier = {
+							target = USA
+								modifier = hostile_status
+								}
+							}
+						}
+					}
+				}				
+			}
 	focus = {
 		id = BOL_the_reformist_acts
 		icon = GFX_focus_generic_treaty
@@ -1356,7 +1381,10 @@ completion_reward = {
 		}
 		x = 27
 		y = 17
-
+	completion_reward = {
+		add_stability = .5
+			}
+		}
 	}
 	focus = {
 		id = BOL_recognize_workers_unions
@@ -1367,7 +1395,10 @@ completion_reward = {
 		}
 		x = 29
 		y = 18
-
+	completion_reward = {
+		add_stability = -.5
+		add_ideas = BOL_workers_unions
+		}
 	}
 	focus = {
 		id = BOL_creation_of_a_retirement_pension
@@ -1378,7 +1409,10 @@ completion_reward = {
 		}
 		x = 21
 		y = 18
-
+	completion_reward = {
+		add_ideas = BOL_retirement_pension
+		add_war_support = .10
+		}
 	}
 	focus = {
 		id = BOL_the_constitutional_president
@@ -1389,7 +1423,9 @@ completion_reward = {
 		}
 		x = 27
 		y = 16
-
+		completion_reward = {
+		add_country_leader_trait = dictator
+		}
 	}
 	focus = {
 		id = BOL_Mita
