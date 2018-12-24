@@ -864,7 +864,7 @@ completion_reward = {
 	completion_reward = {
 		diplomatic_relation = {
 			country = PRU
-			relation = unstable_alliance
+			opinion = unstable_alliance
 			active = no
 				}
 			add_political_power = 100
@@ -1351,27 +1351,26 @@ completion_reward = {
 					add_opinion_modifier = {
 							target = GER
 								modifier = large_increase
-								}
-						}
+							}
+			    }
 			GER = {
 					add_opinion_modifier = {
 						target = BOL
 							modifier = large_increase
-							}
-					}
+						}
+				}
 			USA = {
 					add_opinion_modifier = {
 							target = BOL
 								modifier = pact_against_us
+							}
+                }							
 			BOL = {
 					add_opinion_modifier = {
 							target = USA
 								modifier = pact_against_us
 								}
-							}
-						}
-					}
-				}				
+				}			
 			}
 	focus = {
 		id = BOL_the_reformist_acts
@@ -1507,7 +1506,7 @@ completion_reward = {
 					add_opinion_modifier = {
 						target = BOL
 							modifier = large_increase
-							}
+						}
 					}
 			BOL = {
 					add_opinion_modifier = {

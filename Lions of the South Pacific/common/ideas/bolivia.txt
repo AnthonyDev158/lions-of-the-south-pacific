@@ -466,7 +466,7 @@ ideas = {
 			
 			modifier = {
 				line_change_production_efficiency_factor = 0.10
-				consumer_goods_factor = .05
+				consumer_goods_factor = 0.05
 				}	
 			}
 			

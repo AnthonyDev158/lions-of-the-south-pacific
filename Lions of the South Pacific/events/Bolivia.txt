@@ -167,44 +167,37 @@ country_event = {
 			factor = 10
 		}
 		GER = {
-		country_event = BOL_diplomatic.1
-			}
+		country_event = bolivia.7
 		}
 	}
 
 #German Advisor (Germany recieves)
 country_event = {
-	id = BOL_diplomatic.1 
-	title = BOL_diplomatic.1.t 
-	desc = BOL_diplomatic.1.d
+	id = bolivia.7
+	title = bolivia.7.t 
+	desc = bolivia.7.d
 	picture = news_event_006
 	
 	is_triggered_only = yes
 	
 	option = {
-	name = BOL_diplomatic.1.a
+	name = bolivia.7.a
 	ai_chance = {
 			factor = 100
-		}
-
-		country_event = {
-			id = bolivia.7
-		 }
-		 send_equipment = {
-			equipment = infantry_equipment
-			amount = 1500
-				target = BOL
-				}
-			}
-			
+	}
+	send_equipment = {
+		equipment = infantry_equipment
+		amount = 1500
+		target = { BOL }
+	}		
 	option = {
 	name = BOL_diplomatic.1.b
 	ai_chance = {
 			factor = 0
 		}
-		country_event = {
-			id = bolivia.8
-		 }
+		BOL = {
+		country_event = bolivia.8
+		}
 	}
 }
 		 
