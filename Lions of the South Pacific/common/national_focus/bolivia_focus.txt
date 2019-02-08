@@ -864,7 +864,7 @@ completion_reward = {
 	completion_reward = {
 		diplomatic_relation = {
 			country = PRU
-			opinion = unstable_alliance
+			opinion = faction_traitor
 			active = no
 				}
 			add_political_power = 100
@@ -1372,6 +1372,7 @@ completion_reward = {
 								}
 				}			
 			}
+		}
 	focus = {
 		id = BOL_the_reformist_acts
 		icon = GFX_focus_generic_treaty

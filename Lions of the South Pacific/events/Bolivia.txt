@@ -233,5 +233,36 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
+#####################
+#Uprising
+country_event = {
+	id = bolivia.9
+	title = bolivia.9.t
+	desc = bolivia.9.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = bolivia.9.a
+	ai_chance = {
+			factor = 10
+		}
+	set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		create_country_leader = {
+		    name = "Víctor Paz Estenssoro"
+		    desc = "POLITICS_GERMAN_BUSCH_DESC"
+		    picture = "estenssoro.png"
+		    expire = "1965.1.1"
+		    ideology = anti_revisionism
+	    }
+		complete_national_focus = BOL_Front_de_Izquierda
+    }
+}
+		
+		
+		
+		
 	}
 }
