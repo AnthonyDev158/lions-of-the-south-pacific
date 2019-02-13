@@ -93,6 +93,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	PRU_peruvian_great_depression
+	PRU_apra_start
+	PRU_dream_of_democracy
+}
+
 create_country_leader = {
 	name = "Óscar R. Benavides Larrea"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"

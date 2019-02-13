@@ -2528,4 +2528,10 @@
  CHI_illegal_regime:0 "Illegal Regime"
  failure_of_the_chaco_war:0 "Failure of the Chaco War"
  failure_of_the_chaco_war_desc:0 "Bitterness over defeat in the Chaco War dominates the politics of this nation."
-
+ PRU_peruvian_great_depression:0 "The Great Depression"
+ PRU_peruvian_great_depression_desc:0 "The Great Depression has been affecting Peru since 1929; either knocking down governments like Leguia, taking jobs away from many Peruvians, affecting the economy and promoting the political division in the country... \n\nWe need to change this."
+ PRU_apra_start:0 "APRA"
+ PRU_apra_start_desc:0 "The APRA is one of the political factions with more influence in our country. Its leader Victor Raul Haya de la Torre has managed to expand his party throughout Peru; In addition, APRA has hampered former governments such as that of the late President Sanchez Cerro, even almost taking the country to a civil war."
+ PRU_apra_start_instant_desc:0 "\n§RWe have to be careful with the APRA, we do not want a civil war that destroys the country ...§!"
+ PRU_dream_of_democracy:0 "The Dream of Democracy"
+ PRU_dream_of_democracy_desc:0 "After the assassination of President Sanchez Cerro, the Peruvian people are promised that there will be elections in 1936. The moment has arrived and the people are waiting with joy because finally, after so many tragedies, they will be able to vote freely ... \n\nWe do not want to take away that joy, right?"
