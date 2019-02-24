@@ -862,14 +862,17 @@ completion_reward = {
 		x = 59
 		y = 2
 	completion_reward = {
-		diplomatic_relation = {
-			country = PRU
-			opinion = faction_traitor
-			active = no
+	PRU = {
+			add_opinion_modifier = { target = BOL modifier = pact_against_us }			
+			add_tech_bonus = {
+				name = radar_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = radar_tech
 				}
-			add_political_power = 100
 			}
 		}
+	}
 	focus = {
 		id = BOL_incorporate_foreign_plane_designs
 		icon = GFX_focus_jap_zero
@@ -1503,6 +1506,8 @@ completion_reward = {
 					add_opinion_modifier = {
 							target = BOL
 								modifier = large_increase
+								}
+							}
 			FRA = {
 					add_opinion_modifier = {
 						target = BOL
@@ -1531,8 +1536,6 @@ completion_reward = {
 							}
 						}
 					}
-				}				
-			}
 	focus = {
 		id = BOL_a_neutral_alliance
 		icon = GFX_GenericPolitical
@@ -1548,7 +1551,7 @@ completion_reward = {
 		x = 25
 		y = 20
 	completion_reward = {
-		add_stability = .02
+		add_stability = .05
 		}
 	}
 	focus = {
