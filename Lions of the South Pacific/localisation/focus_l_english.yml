@@ -2200,12 +2200,12 @@
  BOL_La_Rosca_desc:0 ""
  BOL_pro_axis_stance:0 "Pro Axis Stance"
  BOL_pro_axis_stance_desc:0 ""
- BOL_the_reformist_acts:0 ""The Reformist Acts
+ BOL_the_reformist_acts:0 "The Reformist Acts"
  BOL_the_reformist_acts_desc:0 ""
  BOL_recognize_workers_unions:0 "Recognize Workers Unions"
  BOL_recognize_workers_unions_desc:0 ""
  BOL_creation_of_a_retirement_pension:0 "Creation of a Retirement Pension"
- BOL_creation_of_a_retirement _pension_desc:0 ""
+ BOL_creation_of_a_retirement_pension_desc:0 ""
  BOL_the_constitutional_president:0 "The Constitutional President"
  BOL_the_constitutional_president_desc:0 ""
  BOL_Mita:0 "Mit'a"
@@ -2267,5 +2267,5 @@
  BOL_extensive_port_efforts:0 "Extensive Port Efforts"
  BOL_extensive_port_efforts_desc:0 ""
  BOL_Constituent_Assembly:0 "Constitutent Assembly"
- BOL_Constituent Assembly_desc:0 ""
+ BOL_Constituent_Assembly_desc:0 ""
 ###############################################
