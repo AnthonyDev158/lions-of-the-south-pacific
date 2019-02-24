@@ -170,6 +170,7 @@ country_event = {
 		country_event = bolivia.7
 		}
 	}
+}
 
 #German Advisor (Germany recieves)
 country_event = {
@@ -185,41 +186,23 @@ country_event = {
 	ai_chance = {
 			factor = 100
 	}
+	GER = {
 	send_equipment = {
 		equipment = infantry_equipment
 		amount = 1500
-		target = { BOL }
-	}		
+					}
+				}
+			}		
 	option = {
 	name = BOL_diplomatic.1.b
-	ai_chance = {
-			factor = 0
-		}
 		BOL = {
 		country_event = bolivia.8
+			}
 		}
 	}
-}
 		 
 ##########
 #German Advisor (Accepted)
-country_event = {
-	id = bolivia.7
-	title = bolivia.7.t
-	desc = bolivia.7.d
-	picture = news_event_006
-	
-	is_triggered_only = yes
-	
-	option = {
-	    name = bolivia.7.a
-		ai_chance = {
-			factor = 10
-		}
-	}
-}
-##########
-#German Advisor (Declined)
 country_event = {
 	id = bolivia.8
 	title = bolivia.8.t
@@ -230,11 +213,10 @@ country_event = {
 	
 	option = {
 	    name = bolivia.8.a
-		ai_chance = {
-			factor = 10
-		}
-#####################
-#Uprising
+	}
+}
+##########
+#German Advisor (Declined)
 country_event = {
 	id = bolivia.9
 	title = bolivia.9.t
@@ -244,7 +226,24 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-	name = bolivia.9.a
+	    name = bolivia.9.a
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+#####################
+#Uprising
+country_event = {
+	id = bolivia.10
+	title = bolivia.10.t
+	desc = bolivia.9.d
+	picture = news_event_006
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = bolivia.10.a
 	ai_chance = {
 			factor = 10
 		}
@@ -258,11 +257,5 @@ country_event = {
 		    ideology = anti_revisionism
 	    }
 		complete_national_focus = BOL_Front_de_Izquierda
-    }
-}
-		
-		
-		
-		
-	}
-}
+		}
+	}	
