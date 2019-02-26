@@ -1,0 +1,753 @@
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+# PEACE SONGS ##################
+music = {
+	song = "general_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}
+}
+
+music = {
+	song = "allies_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "allies_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "axis_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "axis_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = fascism
+		}		
+	}	
+}
+
+# WAR SONGS ####################
+
+music = {
+	song = "general_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "general_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_4"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "allies_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "allies_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_peace_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}
+
+
+music = {
+	song = "comintern_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+# South America Musics########
+
+music = {
+	song = "ecu_himno_nacional"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = ECU
+				}
+			}
+		}
+	}	
+}
+
+music = {
+	song = "ecu_marcha_de_desfile"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = ECU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "ecu_marcha_de_vencedores"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = ECU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "ecu_marcha_nuestro_ecuador"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = ECU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "pru_contingo_peru"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = PRU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = no
+		}	
+	}	
+}
+
+music = {
+	song = "pru_el_condor_pasa_marcha"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = PRU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascism
+		}			
+	}	
+}
+
+music = {
+	song = "pru_himno_nacional"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = PRU
+				}
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "pru_las_torres"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = PRU
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			has_war = no
+		}
+		modifier = {
+			factor = 2
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "pru_los_peruanos_pasan"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = PRU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}	
+	}	
+}
+
+music = {
+	song = "pru_marcha_de_banderas"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = PRU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}	
+	}	
+}
+
+music = {
+	song = "ecu_paquisha"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = ECU
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}	
+}
+
+music = {
+	song = "chl_brazas_a_ceñir"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = CHL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+	}	
+}
+
+music = {
+	song = "chl_chilenos_a_ala_accion"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = CHL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}	
+	}	
+}
+
+music = {
+	song = "chl_himno_nacional"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = CHL
+				}
+			}
+		}	
+	}	
+}
+
+music = {
+	song = "chl_himno_socialista"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = CHL
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			has_government = communism
+		}
+		modifier = {
+			factor = 1
+			has_government = democratic
+		}			
+	}	
+}
+
+music = {
+	song = "chl_melodias_del_norte"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = CHL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "chl_victoria_y_gloria"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = CHL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "bol_comandante_condor"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = BOL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}	
+	}	
+}
+
+music = {
+	song = "bol_en_las_canterias"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = BOL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}	
+	}	
+}
+
+music = {
+	song = "bol_himno_nacional"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = BOL
+				}
+			}
+		}
+	}	
+}
+
+music = {
+	song = "bol_la_patria"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = BOL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 1
+			has_government = fascism
+		}		
+	}	
+}
+
+music = {
+	song = "bol_marcha_antofagasta"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = BOL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "bol_marcha_parada"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = BOL
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = neutrality
+		}		
+	}	
+}

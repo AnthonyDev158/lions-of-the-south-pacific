@@ -1,0 +1,281 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.65
+}
+
+# General Peace:
+music = {
+	name = "general_peace_1"
+	file = "general_peace_heartsofmen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_2"
+	file = "thewarends.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_3"
+	file = "asongforthechildrenofww2.ogg"
+	volume = 0.65
+}
+
+# General war:
+music = {
+	name = "general_war_1"
+	file = "general_war_bringforththetanks.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_war_2"
+	file = "general_war_theattack.ogg"
+	volume = 0.65
+}
+
+
+# Allies Peace:
+music = {
+	name = "allies_peace_1"
+	file = "allies_peace_morningofdday.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_peace_2"
+	file = "endofthetour.ogg"
+	volume = 0.65
+}
+
+
+# Allies War:
+music = {
+	name = "allies_war_1"
+	file = "wearesoldiers.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_war_2"
+	file = "allies_war_theroyalairforce.ogg"
+	volume = 0.65
+}
+
+
+# Axis Peace:
+music = {
+	name = "axis_peace_1"
+	file = "axis_peace_krakow.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_peace_2"
+	file = "luftwaffemarch_reprise.ogg"
+	volume = 0.65
+}
+
+
+# Axis War:
+music = {
+	name = "axis_war_1"
+	file = "axistheme.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_2"
+	file = "heavywater.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_3"
+	file = "operationbarbarossa.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_4"
+	file = "war_axis_1_daysofthunder.ogg"
+	volume = 0.65
+}
+
+
+# Comintern Peace:
+
+music = {
+	name = "comintern_peace_1"
+	file = "motherrussia.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_2"
+	file = "theredarmy.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_3"
+	file = "sovietvictory.ogg"
+	volume = 0.65
+}
+
+# Comintern War:
+
+music = {
+	name = "comintern_war_1"
+	file = "themightofsovietunion.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_2"
+	file = "cominterntheme.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_3"
+	file = "thegreatpatrioticwar.ogg"
+	volume = 0.65
+}
+
+
+#South America Musics 
+
+music = {
+   name = "ecu_himno_nacional"
+   file = "ecu_himno_nacional.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "ecu_marcha_de_desfile"
+   file = "ecu_marcha_de_desfile.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "ecu_marcha_de_vencedores"
+   file = "ecu_marcha_de_vencedores.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "ecu_marcha_nuestro_ecuador"
+   file = "ecu_marcha_nuestro_ecuador.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "pru_contingo_peru"
+   file = "pru_contingo_peru.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "pru_el_condor_pasa_marcha"
+   file = "pru_el_condor_pasa_marcha.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "pru_himno_nacional"
+   file = "pru_himno_nacional.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "pru_las_torres"
+   file = "pru_las_torres.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "pru_los_peruanos_pasan"
+   file = "pru_los_peruanos_pasan.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "pru_marcha_de_banderas"
+   file = "pru_marcha_de_banderas.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "ecu_paquisha"
+   file = "ecu_paquisha.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "chl_brazas_a_ceñir"
+   file = "chl_brazas_a_ceñir.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "chl_chilenos_a_ala_accion"
+   file = "chl_chilenos_a_ala_accion.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "chl_himno_nacional"
+   file = "chl_himno_nacional.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "chl_himno_socialista"
+   file = "chl_himno_socialista.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "chl_melodias_del_norte"
+   file = "chl_melodias_del_norte.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "chl_victoria_y_gloria"
+   file = "chl_victoria_y_gloria.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "bol_comandante_condor"
+   file = "bol_comandante_condor.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "bol_en_las_canterias"
+   file = "bol_en_las_canterias.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "bol_himno_nacional"
+   file = "bol_himno_nacional.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "bol_la_patria"
+   file = "bol_la_patria.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "bol_marcha_antofagasta"
+   file = "bol_marcha_antofagasta.ogg"
+   volume = 0.65
+}
+
+music = {
+   name = "bol_marcha_parada"
+   file = "bol_marcha_parada.ogg"
+   volume = 0.65
+}
+   
