@@ -14,9 +14,10 @@ country_event = {
     is_triggered_only = yes
 	
 	trigger = {
-		tag = BOL
-		date > 1936.5.16
-	}
+        tag = BOL
+        date > 1936.5.16
+        date < 1936.5.20
+    }
 	option = {
 	    name = bolivia.1.a
 		ai_chance = {
@@ -26,7 +27,7 @@ country_event = {
 		set_party_name = { ideology = neutrality long_name = BOL_junta_party_long name = BOL_junta_party }
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		create_country_leader = {
-		    name = "David Toro"
+		    name = "Germán Busch"
 		    desc = "POLITICS_GERMAN_BUSCH_DESC"
 		    picture = "Busch.dds"
 		    expire = "1965.1.1"
