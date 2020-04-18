@@ -8,4 +8,4 @@ tags={
 }
 picture="lionsofthesouthpacific.jpg"
 remote_file_id="1324335425"
-supported_version="1.5.*"
+supported_version="1.9.1"
