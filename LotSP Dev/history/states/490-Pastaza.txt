@@ -12,13 +12,14 @@ state={
 
 		}
 		add_core_of = PRU
+                add_claim_by = ECU
 
 	}
 
 	provinces={
 		8149 10942 12869 
 	}
-	manpower=70020
+	manpower=30045
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }
