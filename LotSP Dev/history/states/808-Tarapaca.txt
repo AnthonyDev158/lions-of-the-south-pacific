@@ -9,6 +9,13 @@ state={
 
 		}
 		add_core_of = CHL
+		victory_points = {
+			13249 10 
+		}
+
+		victory_points = {
+			 13250 10
+		}
 
 	}
 

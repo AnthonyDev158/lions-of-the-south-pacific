@@ -11,6 +11,18 @@ state={
 		}
 		add_core_of = CHL
 
+		victory_points = {
+			8218 12
+		}
+
+		victory_points = {
+			5201 25
+		}
+
+		victory_points = {
+			5209 10
+		}
+
 	}
 
 	provinces={
@@ -18,5 +30,5 @@ state={
 	}
 	manpower=68693
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }

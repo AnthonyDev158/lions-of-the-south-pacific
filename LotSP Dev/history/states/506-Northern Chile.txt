@@ -21,7 +21,19 @@ state={
 		}
 		add_core_of = CHL
 		victory_points = {
-			12994 1 
+			12994 25 
+		}
+
+		victory_points = {
+			 13253 12
+		}
+
+		victory_points = {
+			 13254 15
+		}
+		
+		victory_points = {
+			 5171 5
 		}
 
 	}
@@ -31,5 +43,5 @@ state={
 	}
 	manpower=145147
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

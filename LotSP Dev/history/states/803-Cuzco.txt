@@ -1,7 +1,7 @@
 state={
 	id=803
 	name="STATE_803"
-	
+
 	history={
 		owner = PRU
 		buildings = {
@@ -11,6 +11,7 @@ state={
 		add_core_of = PRU
 
 	}
+
 	provinces={
 		5166 13246 13247 
 	}

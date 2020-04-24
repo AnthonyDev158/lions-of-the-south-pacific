@@ -29,8 +29,18 @@ state={
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 10 
+			650 40 
 		}
+		
+		victory_points = {
+			13255 18 
+		}
+
+		victory_points = {
+			8222 25 
+		}
+
+		
 
 	}
 

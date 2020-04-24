@@ -1,7 +1,9 @@
 state={
 	id=813
 	name="STATE_813"
-
+	resources={
+		steel=12.000
+	}
 	history={
 		owner = CHL
 		buildings = {
@@ -10,6 +12,18 @@ state={
 		}
 		add_core_of = CHL
 
+		victory_points = {
+			13257 10 
+		}
+
+		victory_points = {
+			12984 15 
+		}
+
+		victory_points = {
+			8251  10 
+		}
+
 	}
 
 	provinces={
@@ -17,5 +31,5 @@ state={
 	}
 	manpower=609358
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 }
