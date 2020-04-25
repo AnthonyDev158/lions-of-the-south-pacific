@@ -7,6 +7,11 @@ state={
 		buildings = {
 			infrastructure = 2
 
+		8252 = {
+				naval_base = 4
+
+			}
+
 		}
 		add_core_of = ECU
 
