@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_fernando_belaunde_terry"
+		texturefile = "gfx/interface/advisor/advisor_fernando_belaunde.dds"
+	}
+}
