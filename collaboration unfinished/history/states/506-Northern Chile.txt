@@ -1,0 +1,43 @@
+
+state={
+	id=506
+	name="STATE_506"
+
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			12994 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CHL
+		victory_points = {
+			12994 25 
+		}
+
+		victory_points = {
+			 13253 12
+		}
+
+		victory_points = {
+			 13254 15
+		}
+		
+		victory_points = {
+			 5171 5
+		}
+
+	}
+
+	provinces={
+		5146 5171 12994 13253 13254
+	}
+	manpower=145147
+	buildings_max_level_factor=1.000
+	state_category=town
+}

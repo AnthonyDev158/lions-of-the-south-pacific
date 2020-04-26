@@ -349,11 +349,6 @@
  CZE_democratic_party_long:0 "Ceská strana národne sociální"
  CZE_fascism_party:0 "NOF"
  CZE_fascism_party_long:0 "Národní obec fašistická"
- CHL_fascism_party:0 "VPS"
- CHL_fascism_party_long:0 "Vanguardia Popular Socialista"
- CHL_democratic_party:0 "Partido Liberal"
- CHL_communism_party:0 "PCCh"
- CHL_communism_party_long:0 "Partido Comunista de Chile"
  ETH_neutrality_party:0 "Solomonic Dynasty"
  ETH_democratic_party:0 "Woyane rebellion"
  ALB_neutrality_party:0 "House of Zogu"
@@ -633,7 +628,7 @@
  NAV_democratic_party_long:0 "Eusko Abertzale Ekintza"
  NAV_communism_party:0 "EPK-PCV"
  NAV_communism_party_long:0 "Euskadiko Partidu Komunista"
- #### Political Partis LotSP #####
+ #### Peruvian Political Partis LotSP #####
  PRU_communism_party:0 "PCP"
  PRU_communism_party_long:0 "Partido Comunista Peruano"
  PRU_democratic_party:0 "CC-PSD"
@@ -642,3 +637,10 @@
  PRU_neutrality_party_long:0 "Congreso Constituyente"
  PRU_fascism_party:0 "UR"
  PRU_fascism_party_long:0 "Union Revolucionaria"
+ #### Chilean Political Parties LOTSP #####
+ CHL_fascism_party:0 "MNSCh"
+ CHL_fascism_party_long:0 "Movimiento Nacional-Socialista de Chile"
+ CHL_democratic_party_long:0 "Partido Liberal"
+ CHL_democratic_party:0 "PL"
+ CHL_communism_party:0 "PCCh"
+ CHL_communism_party_long:0 "Partido Comunista de Chile"
