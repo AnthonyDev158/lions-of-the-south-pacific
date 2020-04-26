@@ -1,5 +1,5 @@
 ﻿name="LotSP Dev Version"
-path="mod/Lions of the South Pacific/"
+path="mod/LotSP Dev/"
 tags={
 	"Alternative History"
 	"Historical"
