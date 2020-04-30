@@ -829,7 +829,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = CHL_redistribute_property
+		id = CHL_redistribute_private_property
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {

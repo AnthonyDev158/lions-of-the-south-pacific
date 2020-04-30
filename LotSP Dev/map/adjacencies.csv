@@ -12,7 +12,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8229;2215;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
 13257;2215;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
 8251;2215;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
-8251;13261;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
 8251;8192;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
 5169;2199;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
 5169;8161;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
