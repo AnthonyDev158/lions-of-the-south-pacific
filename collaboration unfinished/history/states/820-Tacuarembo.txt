@@ -1,9 +1,22 @@
 state={
 	id=820
 	name="STATE_820"
+
+	history={
+		owner = URG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = URG
+
+	}
+
 	provinces={
 		1613 1626 10502 12440 12468 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 }

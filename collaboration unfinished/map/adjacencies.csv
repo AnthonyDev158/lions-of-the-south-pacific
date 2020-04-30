@@ -1,5 +1,23 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
+5192;8195;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+5192;8253;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+5192;12928;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+12914;12928;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+12928;13251;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+13251;2179;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+650;2179;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+650;10992;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+8229;10992;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+8229;2215;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+13257;2215;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+8251;2215;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+8251;13261;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+8251;8192;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+5169;2199;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+5169;8161;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+5118;8161;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
+8161;2161;impassable;-1;-1;-1;-1;-1;;Andes-Mountain-Range
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
 480;9431;sea;8621;-1;-1;-1;-1;;Netherlands outlier

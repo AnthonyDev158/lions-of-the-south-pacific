@@ -1,9 +1,26 @@
 state={
 	id=828
 	name="STATE_828"
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+
+		10953 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ARG
+	}
+	
+
 	provinces={
 		8161 8176 10953 11005 12349 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
