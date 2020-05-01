@@ -2,17 +2,6 @@ ideas = {
 
 	political_advisor = {
 
-		PRU_armando_reveredo_iglesias = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { war_industrialist }
-		}
-
         PRU_fernando_belaunde_terry = {
 		
 		    picture = fernando_belaunde_terry
@@ -24,31 +13,53 @@ ideas = {
 			traits = { great_architect }
 		}
 
-		PRU_oscar_miro_quesada = {
+		PRU_jose_manzanilla = {
 
-			picture = generic_political_advisor_south_america_2
+			picture = jose_manzanilla
 				
 			allowed = {
 				original_tag = PRU
 			}
 			
-			traits = { silent_workhorse }
+			traits = { social_reformer }
 		}
 
-		PRU_reynaldo_vinatea = {
+		PRU_hector_boza = {
 
-			picture = generic_political_advisor_south_america_1
+			picture = hector_boza
 			
 			allowed = {
 				original_tag = PRU
 			}
 			
-			traits = { ideological_crusader }
+			traits = { captain_of_industry }
 		}
+		
+		PRU_alfredo_solf = {
 
-		PRU_jose_bustamante_y_rivero = {
+			picture = alfredo_solf
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+		
+		PRU_luis_flores = {
 
-			picture = generic_political_advisor_south_america_3
+			picture = luis_flores
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		PRU_javier_perez_cuellar = {
+
+			picture = javier_perez_cuellar
 			
 			allowed = {
 				original_tag = PRU
@@ -56,152 +67,142 @@ ideas = {
 			
 			traits = { compassionate_gentleman }
 		}
+		
+		PRU_jose_aguero_osma = {
+
+			picture = jose_aguero_osma
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { fascist_demagogue }
+		}
+		
+		PRU_jorge_del_prado = {
+
+			picture = jorge_del_prado
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { communist_revolutionary }
+		}
+		
+		PRU_emiliano_huamantica = {
+
+			picture = emiliano_huamantica
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { ambitious_union_boss }
+		}
+		
+		PRU_manuel_gallagher = {
+
+			picture = manuel_gallagher
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { financial_expert }
+		}
+
+		PRU_jose_bustamante_y_rivero = {
+
+			picture = jose_bustamante_y_rivero
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { popular_figurehead }
+		}
 	}
 
 	theorist = {
 
-		PRU_luis_ramirez_ortiz = {
-			ledger = army
-					
-			picture = generic_army_south_america_1
-
-			allowed = {
-				original_tag = PRU
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.10
-			}
-			
-			traits = { military_theorist }
-		}
-
-		PRU_romulo_frias = {
+		PRU_pedro_paulet = {
 			ledger = air
 					
-			picture = generic_air_south_america_1
-				
-			allowed = {
-				original_tag = PRU
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.10
-			}
-			
-			traits = { air_warfare_theorist }
-		}
+			picture = pedro_paulet
 
-		PRU_ernesto_scroth = {
-			ledger = navy
-					
-					
 			allowed = {
 				original_tag = PRU
 			}
 			
-			picture = generic_political_advisor_south_america_1
-			
 			research_bonus = {
-				naval_doctrine = 0.10
+				rocketry = 0.15
 			}
 			
-			traits = { naval_theorist }
+			traits = { rocket_scientist }
 		}
 	}
 
 	high_command = {
 
+		PRU_manuel_encarnacion = {
+			ledger = army
+
+			picture = manuel_encarnacion
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { army_logistics_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		PRU_felipe_barra = {
+			ledger = army
+
+			picture = felipe_barra
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+			traits = { army_infantry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
 		PRU_eloy_g_ureta = {
 			ledger = army
 
-			picture = generic_army_south_america_1
+			picture = eloy_g_ureta
 			
 			allowed = {
 				original_tag = PRU
 			}
 			
-			traits = { army_logistics_2 }
+			traits = { army_artillery_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
-
-		PRU_rafael_escardo = {
+		
+		PRU_zenon_noriega = {
 			ledger = army
 
-			picture = generic_army_south_america_2
+			picture = zenon_noriega
 			
 			allowed = {
 				original_tag = PRU
 			}
 			
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		PRU_eduardo_montero_rojas = {
-			ledger = army
-
-			picture = generic_army_south_america_4
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { army_armored_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		PRU_luis_navarrete = {
-			ledger = air
-
-			picture = generic_navy_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { navy_carrier_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		PRU_fernando_m_quesada_blanco = {
-			ledger = air
-
-			picture = generic_air_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { air_strategic_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		PRU_alberto_lopez_flores = {
-			ledger = air
-
-			picture = generic_air_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { air_airborne_2 }
+			traits = { army_artillery_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -213,7 +214,7 @@ ideas = {
 
 		PRU_oscar_benavides_larrea = {
 			
-			picture = generic_army_south_america_2
+			picture = oscar_benavides_larrea
 			
 			allowed = {
 				original_tag = PRU
@@ -221,33 +222,16 @@ ideas = {
 			
 
 			
-			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		PRU_oscar_gilardi = {
-			
-			picture = generic_army_south_america_5
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-
-			
-			traits = { army_chief_drill_2 }
+			traits = { army_chief_old_guard }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		PRU_vladimiro_lopez_trigoso = {
+		PRU_antonio_beingolea = {
 			
-			picture = generic_army_south_america_3
+			picture = antonio_beingolea
 			
 			allowed = {
 				original_tag = PRU
@@ -255,16 +239,16 @@ ideas = {
 			
 
 			
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_defensive_1 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		PRU_manuel_odria_amoretti = {
+		PRU_manuel_odria = {
 			
-			picture = generic_army_south_america_2
+			picture = manuel_odria
 			
 			allowed = {
 				original_tag = PRU
@@ -272,7 +256,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_organizational_2 }
+			traits = { army_chief_offensive_1 }
 			
 			ai_will_do = {
 				factor = 1
@@ -282,26 +266,9 @@ ideas = {
 
 	air_chief = {
 
-		PRU_paul_de_beaudiez = {
+		PRU_armando_revoredo_iglesias = {
 			
-			picture = generic_air_south_america_3
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		PRU_eduardo_cantabria_gomez = {
-			
-			picture = generic_air_south_america_2
+			picture = armando_revoredo_iglesias
 			
 			allowed = {
 				original_tag = PRU
@@ -309,7 +276,7 @@ ideas = {
 			
 
 			
-			traits = { air_chief_reform_2 }
+			traits = { air_chief_reform_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -319,9 +286,9 @@ ideas = {
 
 	navy_chief = {
 
-		PRU_alberto_roque_saldias = {
+		PRU_roque_augusto_saldias = {
 			
-			picture = generic_navy_south_america_2
+			picture = roque_augusto_saldias
 			
 			allowed = {
 				original_tag = PRU
@@ -329,16 +296,16 @@ ideas = {
 			
 
 			
-			traits = { navy_chief_decisive_battle_2 }
+			traits = { navy_chief_reform_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		PRU_felipe_tudela = {
+		PRU_hector_mercado_silva = {
 			
-			picture = generic_navy_south_america_3
+			picture = hector_mercado_silva
 			
 			allowed = {
 				original_tag = PRU
@@ -346,7 +313,24 @@ ideas = {
 			
 
 			
-			traits = { navy_chief_commerce_raiding_2 }
+			traits = { navy_screen_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		PRU_federico_diaz_dulanto = {
+			
+			picture = federico_diaz_dulanto
+			
+			allowed = {
+				original_tag = PRU
+			}
+			
+
+			
+			traits = { navy_chief_old_guard }
 			
 			ai_will_do = {
 				factor = 1

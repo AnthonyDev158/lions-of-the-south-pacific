@@ -4,4 +4,114 @@ spriteTypes = {
 		name = "GFX_idea_fernando_belaunde_terry"
 		texturefile = "gfx/interface/advisor/advisor_fernando_belaunde.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_jose_manzanilla"
+		texturefile = "gfx/interface/advisor/advisor_matias_manzanilla.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hector_boza"
+		texturefile = "gfx/interface/advisor/advisor_hector_boza.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_alfredo_solf"
+		texturefile = "gfx/interface/advisor/advisor_alfredo_solf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_luis_flores"
+		texturefile = "gfx/interface/advisor/advisor_luis_flores.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_javier_perez_cuellar"
+		texturefile = "gfx/interface/advisor/advisor_javier_cuellar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jose_aguero_osma"
+		texturefile = "gfx/interface/advisor/advisor_jose_riva_aguero.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jorge_del_prado"
+		texturefile = "gfx/interface/advisor/advisor_jorge_del_prado.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_emiliano_huamantica"
+		texturefile = "gfx/interface/advisor/advisor_emiliano_huamantica.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_manuel_gallagher"
+		texturefile = "gfx/interface/advisor/advisor_manuel_gallagher.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_jose_bustamante_y_rivero"
+		texturefile = "gfx/interface/advisor/advisor_bustamante_y_rivero.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_pedro_paulet"
+		texturefile = "gfx/interface/advisor/advisor_pedro_paulet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_manuel_encarnacion"
+		texturefile = "gfx/interface/advisor/advisor_manuel_rodriguez.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_felipe_barra"
+		texturefile = "gfx/interface/advisor/advisor_felipe_barra.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_eloy_g_ureta"
+		texturefile = "gfx/interface/advisor/advisor_eloy_ureta.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_zenon_noriega"
+		texturefile = "gfx/interface/advisor/advisor_zenon_noriega.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_oscar_benavides_larrea"
+		texturefile = "gfx/interface/advisor/advisor_oscar_benavides.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_antonio_beingolea"
+		texturefile = "gfx/interface/advisor/advisor_antonio_beingolea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_manuel_odria"
+		texturefile = "gfx/interface/advisor/advisor_manuel_odria.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_armando_revoredo_iglesias"
+		texturefile = "gfx/interface/advisor/advisor_armando_iglesias.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_roque_augusto_saldias"
+		texturefile = "gfx/interface/advisor/advisor_roque_saldias.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_hector_mercado_silva"
+		texturefile = "gfx/interface/advisor/advisor_hector_mercado_silva.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_federico_diaz_dulanto"
+		texturefile = "gfx/interface/advisor/advisor_federico_diaz_dulanto.dds"
+	}
 }
