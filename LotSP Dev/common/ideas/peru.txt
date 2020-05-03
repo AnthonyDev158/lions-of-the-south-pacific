@@ -120,7 +120,7 @@ ideas = {
 				original_tag = PRU
 			}
 			
-			traits = { popular_figurehead }
+			traits = { democratic_reformer }
 		}
 	}
 
