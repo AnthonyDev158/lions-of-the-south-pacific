@@ -1,0 +1,1875 @@
+focus_tree = {
+	id = hijos_chile
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHL
+		}
+	}
+	default = no
+	focus = {
+		id = CHL_an_economic_maelstrom
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = CHL_return_of_a_constitutional_normalcy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = CHL_the_38_chilean_elections
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 23
+		y = 0
+
+	}
+	focus = {
+		id = CHL_proclaimation_of_the_2nd_socialist_republic
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 48
+		y = 0
+
+	}
+	focus = {
+		id = CHL_the_isbanez_administraiton
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 38
+		y = 0
+
+	}
+	focus = {
+		id = CHL_firm_grip_on_democracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 59
+		y = 0
+
+	}
+	focus = {
+		id = CHL_a_fascist_upbringing
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 69
+		y = 0
+
+	}
+	focus = {
+		id = CHL_the_great_nacista_revolution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 80
+		y = 0
+
+	}
+	focus = {
+		id = CHL_readdressing_the_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = CHL_reaffirm_the_airforce
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = CHL_refund_arturo_prats_naval_academy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 42
+		y = 6
+
+	}
+	focus = {
+		id = CHL_establish_the_republican_millitia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_return_of_a_constitutional_normalcy
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = CHL_by_the_force_of_the_republic
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_establish_the_republican_millitia
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = CHL_emphasis_on_military_protection
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_by_the_force_of_the_republic
+		}
+		mutually_exclusive = {
+			focus = CHL_support_local_politcians
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = CHL_support_local_politcians
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_by_the_force_of_the_republic
+		}
+		mutually_exclusive = {
+			focus = CHL_emphasis_on_military_protection
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = CHL_a_loose_coalition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_return_of_a_constitutional_normalcy
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = CHL_reviewing_extremism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_establish_the_republican_millitia
+		}
+		prerequisite = {
+			focus = CHL_a_loose_coalition
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = CHL_contain_radicalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reviewing_extremism
+		}
+		mutually_exclusive = {
+			focus = CHL_maintain_political_neutrality
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = CHL_restart_mineral_plants
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_an_economic_maelstrom
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = CHL_proportional_representation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_loose_coalition
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = CHL_reconcile_the_left
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_proportional_representation
+		}
+		mutually_exclusive = {
+			focus = CHL_unite_the_right
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = CHL_maintain_political_neutrality
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reviewing_extremism
+		}
+		mutually_exclusive = {
+			focus = CHL_contain_radicalism
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = CHL_forward_tariff_plans
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_an_economic_maelstrom
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = CHL_promote_the_economic_sciences
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_restart_mineral_plants
+		}
+		prerequisite = {
+			focus = CHL_forward_tariff_plans
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = CHL_suspend_the_gold_standard
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_promote_the_economic_sciences
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = CHL_unite_the_right
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_proportional_representation
+		}
+		mutually_exclusive = {
+			focus = CHL_reconcile_the_left
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = CHL_implement_substitution_economics
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_promote_the_economic_sciences
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = CHL_keynesian_economic_theory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_suspend_the_gold_standard
+		}
+		prerequisite = {
+			focus = CHL_implement_substitution_economics
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = CHL_implement_a_progressive_tax
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_keynesian_economic_theory
+		}
+		x = 2
+		y = 11
+
+	}
+	focus = {
+		id = CHL_nationalize_railways
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_keynesian_economic_theory
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = CHL_establish_corfo
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_nationalize_railways
+		}
+		prerequisite = {
+			focus = CHL_implement_a_progressive_tax
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = CHL_strengthen_unions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_keynesian_economic_theory
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = CHL_chilean_protectionism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_implement_substitution_economics
+		}
+		prerequisite = {
+			focus = CHL_suspend_the_gold_standard
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = CHL_against_worker_unions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_chilean_protectionism
+		}
+		x = 10
+		y = 11
+
+	}
+	focus = {
+		id = CHL_privatize_railroads
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_chilean_protectionism
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = CHL_deregulate_commerce
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_against_worker_unions
+		}
+		prerequisite = {
+			focus = CHL_privatize_railroads
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = CHL_socialist_splendor
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_38_chilean_elections
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = CHL_acute_nationalization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_socialist_splendor
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = CHL_establish_the_carabineros
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_readdressing_the_army
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = CHL_reformation_of_the_left
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_38_chilean_elections
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = CHL_tough_economic_regulation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_socialist_splendor
+			focus = CHL_reformation_of_the_left
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = CHL_nationalize_exports
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_tough_economic_regulation
+		}
+		prerequisite = {
+			focus = CHL_acute_nationalization
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = CHL_focus_on_agrarianism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reformation_of_the_left
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = CHL_unite_the_working_class
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_tough_economic_regulation
+			focus = CHL_focus_on_agrarianism
+			focus = CHL_acute_nationalization
+		}
+		prerequisite = {
+			focus = CHL_tough_economic_regulation
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = CHL_instill_revolutionary_values
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_unite_the_working_class
+		}
+		prerequisite = {
+			focus = CHL_socialist_splendor
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = CHL_ramp_up_socialist_youth_groups
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_acute_nationalization
+		}
+		prerequisite = {
+			focus = CHL_instill_revolutionary_values
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = CHL_integration_with_the_radical_left
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_unite_the_working_class
+		}
+		prerequisite = {
+			focus = CHL_reformation_of_the_left
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = CHL_empower_the_united_front
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_integration_with_the_radical_left
+			focus = CHL_instill_revolutionary_values
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = CHL_review_the_military_doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_readdressing_the_army
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = CHL_a_motorized_nation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_review_the_military_doctrine
+		}
+		mutually_exclusive = {
+			focus = CHL_suprerior_firepower
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = CHL_suprerior_firepower
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_review_the_military_doctrine
+		}
+		mutually_exclusive = {
+			focus = CHL_a_motorized_nation
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = CHL_create_the_school_of_telecommunications
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_motorized_nation
+			focus = CHL_suprerior_firepower
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = CHL_greater_mechanization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_motorized_nation
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = CHL_establish_mountain_troops
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_create_the_school_of_telecommunications
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = CHL_establish_state_controlled_monopolies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_tough_economic_regulation
+		}
+		prerequisite = {
+			focus = CHL_focus_on_agrarianism
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = CHL_expand_primary_schools
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_focus_on_agrarianism
+		}
+		prerequisite = {
+			focus = CHL_integration_with_the_radical_left
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = CHL_emphasis_on_arterilly
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_suprerior_firepower
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = CHL_increase_famae_subsidization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_readdressing_the_army
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = CHL_renewed_age_of_liberalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_38_chilean_elections
+		}
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = CHL_rapid_privitization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_renewed_age_of_liberalism
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = expand_the_igm
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_readdressing_the_army
+		}
+		x = 27
+		y = 7
+
+	}
+	focus = {
+		id = CHL_expand_antarctic_military_bases
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = expand_the_igm
+		}
+		prerequisite = {
+			focus = CHL_increase_famae_subsidization
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = CHL_esquanero_at_the_helm
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_38_chilean_elections
+		}
+		x = 30
+		y = 1
+
+	}
+	focus = {
+		id = CHL_relax_economic_leisures
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_renewed_age_of_liberalism
+			focus = CHL_esquanero_at_the_helm
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = CHL_expand_the_private_sector
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_relax_economic_leisures
+		}
+		prerequisite = {
+			focus = CHL_rapid_privitization
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = CHL_together_with_corporatism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_esquanero_at_the_helm
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = CHL_patriotic_fervor
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_rapid_privitization
+			focus = CHL_together_with_corporatism
+		}
+		prerequisite = {
+			focus = CHL_relax_economic_leisures
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = CHL_absorb_the_nationalists
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_renewed_age_of_liberalism
+		}
+		prerequisite = {
+			focus = CHL_patriotic_fervor
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = CHL_encourage_private_schooling
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_rapid_privitization
+		}
+		prerequisite = {
+			focus = CHL_absorb_the_nationalists
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = CHL_inspire_chilean_nationalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_esquanero_at_the_helm
+		}
+		prerequisite = {
+			focus = CHL_patriotic_fervor
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = CHL_a_truly_right_wing_coalition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_absorb_the_nationalists
+			focus = CHL_inspire_chilean_nationalism
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = CHL_alocate_funds_to_the_santiago_aerial_workhouse
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reaffirm_the_airforce
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = CHL_invest_in_the_american_dakotas
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reaffirm_the_airforce
+		}
+		mutually_exclusive = {
+			focus = CHL_establish_the_chilean_falcones
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = CHL_american_licenses
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_invest_in_the_american_dakotas
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = CHL_liquidate_defunctional_industries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_together_with_corporatism
+		}
+		prerequisite = {
+			focus = CHL_relax_economic_leisures
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = CHL_romanticize_chilean_visionaries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_inspire_chilean_nationalism
+		}
+		prerequisite = {
+			focus = CHL_together_with_corporatism
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = CHL_establish_the_chilean_falcones
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reaffirm_the_airforce
+		}
+		mutually_exclusive = {
+			focus = CHL_invest_in_the_american_dakotas
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = CHL_reorganize_the_airforce
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_invest_in_the_american_dakotas
+			focus = CHL_establish_the_chilean_falcones
+		}
+		x = 33
+		y = 9
+
+	}
+	focus = {
+		id = CHL_spanish_licenses
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_establish_the_chilean_falcones
+		}
+		x = 36
+		y = 10
+
+	}
+	focus = {
+		id = CHL_the_integral_chilean_skies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_american_licenses
+			focus = CHL_spanish_licenses
+		}
+		x = 33
+		y = 11
+
+	}
+	focus = {
+		id = CHL_protect_left_wing_radicalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_isbanez_administraiton
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = CHL_expand_aviation_workshops
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reaffirm_the_airforce
+		}
+		x = 36
+		y = 7
+
+	}
+	focus = {
+		id = CHL_integrate_elements_of_the_extreme_right
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_isbanez_administraiton
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = CHL_truly_a_poltical_centrist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_integrate_elements_of_the_extreme_right
+		}
+		prerequisite = {
+			focus = CHL_protect_left_wing_radicalism
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = CHL_initiate_a_self_coup
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_truly_a_poltical_centrist
+		}
+		mutually_exclusive = {
+			focus = CHL_abide_by_the_republic
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = CHL_abide_by_the_republic
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_truly_a_poltical_centrist
+		}
+		mutually_exclusive = {
+			focus = CHL_initiate_a_self_coup
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = CHL_invite_foreign_economists
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_initiate_a_self_coup
+			focus = CHL_abide_by_the_republic
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = CHL_attempt_to_contain_inflation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_invite_foreign_economists
+		}
+		x = 38
+		y = 5
+
+	}
+	focus = {
+		id = CHL_encourage_mercantile_convoys
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_refund_arturo_prats_naval_academy
+		}
+		x = 39
+		y = 7
+
+	}
+	focus = {
+		id = CHL_chilean_naval_tradition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_refund_arturo_prats_naval_academy
+		}
+		x = 42
+		y = 7
+
+	}
+	focus = {
+		id = CHL_inspiration_from_esmeralda
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_chilean_naval_tradition
+		}
+		mutually_exclusive = {
+			focus = CHL_expand_the_submarine_flotas
+		}
+		x = 39
+		y = 9
+
+	}
+	focus = {
+		id = CHL_prospect_for_oil_in_magallanes
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_encourage_mercantile_convoys
+		}
+		prerequisite = {
+			focus = CHL_chilean_naval_tradition
+		}
+		x = 40
+		y = 8
+
+	}
+	focus = {
+		id = CHL_crusade_against_corruption
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_abide_by_the_republic
+		}
+		prerequisite = {
+			focus = CHL_invite_foreign_economists
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = CHL_expand_the_submarine_flotas
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_chilean_naval_tradition
+		}
+		mutually_exclusive = {
+			focus = CHL_inspiration_from_esmeralda
+		}
+		x = 45
+		y = 9
+
+	}
+	focus = {
+		id = CHL_organize_the_naval_doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_inspiration_from_esmeralda
+			focus = CHL_expand_the_submarine_flotas
+		}
+		x = 42
+		y = 10
+
+	}
+	focus = {
+		id = CHL_the_guards_of_old
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_proclaimation_of_the_2nd_socialist_republic
+		}
+		x = 46
+		y = 1
+
+	}
+	focus = {
+		id = CHL_establish_a_socialist_council
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_guards_of_old
+		}
+		x = 44
+		y = 2
+
+	}
+	focus = {
+		id = CHL_expand_the_valpa_docks
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_refund_arturo_prats_naval_academy
+		}
+		x = 45
+		y = 7
+
+	}
+	focus = {
+		id = CHL_the_socialist_strongman
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_proclaimation_of_the_2nd_socialist_republic
+		}
+		x = 50
+		y = 1
+
+	}
+	focus = {
+		id = CHL_militant_socialist_stance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_guards_of_old
+			focus = CHL_the_socialist_strongman
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = CHL_collectivize_haciendas
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_militant_socialist_stance
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = CHL_promote_the_new_chilean_worker
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_establish_a_socialist_council
+		}
+		prerequisite = {
+			focus = CHL_collectivize_haciendas
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = CHL_limited_enterprise
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_militant_socialist_stance
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = CHL_a_truly_loyal_army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_collectivize_haciendas
+		}
+		prerequisite = {
+			focus = CHL_limited_enterprise
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = CHL_seize_all_leisures_of_power
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_socialist_strongman
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = CHL_reinforce_the_stalin_doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_seize_all_leisures_of_power
+		}
+		prerequisite = {
+			focus = CHL_limited_enterprise
+		}
+		x = 52
+		y = 4
+
+	}
+	focus = {
+		id = CHL_an_efficient_proletariat
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_truly_loyal_army
+		}
+		prerequisite = {
+			focus = CHL_reinforce_the_stalin_doctrine
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = CHL_guide_the_citizenry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_firm_grip_on_democracy
+		}
+		x = 57
+		y = 1
+
+	}
+	focus = {
+		id = CHL_surpress_revolutionary_frevor
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_firm_grip_on_democracy
+		}
+		x = 61
+		y = 1
+
+	}
+	focus = {
+		id = CHL_displace_opposition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_surpress_revolutionary_frevor
+		}
+		prerequisite = {
+			focus = CHL_guide_the_citizenry
+		}
+		x = 59
+		y = 2
+
+	}
+	focus = {
+		id = CHL_continued_military_prescense
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_displace_opposition
+		}
+		mutually_exclusive = {
+			focus = CHL_restore_the_democratic_oath
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = CHL_establish_a_stratocracy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_continued_military_prescense
+		}
+		x = 55
+		y = 5
+
+	}
+	focus = {
+		id = CHL_restore_the_democratic_oath
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_displace_opposition
+		}
+		mutually_exclusive = {
+			focus = CHL_continued_military_prescense
+		}
+		x = 62
+		y = 3
+
+	}
+	focus = {
+		id = CHL_invite_foreign_specialists
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_continued_military_prescense
+			focus = CHL_restore_the_democratic_oath
+		}
+		x = 59
+		y = 4
+
+	}
+	focus = {
+		id = CHL_economic_experimentation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_invite_foreign_specialists
+		}
+		x = 59
+		y = 5
+
+	}
+	focus = {
+		id = CHL_military_knows_best
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_establish_a_stratocracy
+		}
+		prerequisite = {
+			focus = CHL_economic_experimentation
+		}
+		x = 57
+		y = 6
+
+	}
+	focus = {
+		id = CHL_portalesist_idealism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_restore_the_democratic_oath
+		}
+		x = 63
+		y = 5
+
+	}
+	focus = {
+		id = CHL_pathway_of_self_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_portalesist_idealism
+		}
+		prerequisite = {
+			focus = CHL_economic_experimentation
+		}
+		x = 61
+		y = 6
+
+	}
+	focus = {
+		id = CHL_new_chilean_nationalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_fascist_upbringing
+		}
+		x = 67
+		y = 1
+
+	}
+	focus = {
+		id = CHL_illegalize_leftist_ideologies
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_new_chilean_nationalism
+		}
+		x = 66
+		y = 2
+
+	}
+	focus = {
+		id = CHL_cement_loyalty_amongst_the_population
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_fascist_upbringing
+		}
+		x = 71
+		y = 1
+
+	}
+	focus = {
+		id = CHL_reconstruct_congress
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_new_chilean_nationalism
+		}
+		prerequisite = {
+			focus = CHL_cement_loyalty_amongst_the_population
+		}
+		x = 69
+		y = 2
+
+	}
+	focus = {
+		id = CHL_a_state_monopoly_on_education
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reconstruct_congress
+		}
+		prerequisite = {
+			focus = CHL_illegalize_leftist_ideologies
+		}
+		x = 67
+		y = 3
+
+	}
+	focus = {
+		id = CHL_results_from_our_attache
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reconstruct_congress
+		}
+		x = 69
+		y = 4
+
+	}
+	focus = {
+		id = CHL_integrate_conservatives
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_cement_loyalty_amongst_the_population
+		}
+		x = 72
+		y = 2
+
+	}
+	focus = {
+		id = CHL_encourage_corporatist_thought
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_reconstruct_congress
+		}
+		prerequisite = {
+			focus = CHL_integrate_conservatives
+		}
+		x = 71
+		y = 3
+
+	}
+	focus = {
+		id = CHL_a_chile_under_one_perfect_guild
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_encourage_corporatist_thought
+		}
+		prerequisite = {
+			focus = CHL_a_state_monopoly_on_education
+		}
+		prerequisite = {
+			focus = CHL_results_from_our_attache
+		}
+		x = 69
+		y = 5
+
+	}
+	focus = {
+		id = CHL_deter_opposition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_great_nacista_revolution
+		}
+		x = 76
+		y = 1
+
+	}
+	focus = {
+		id = CHL_la_mano_del_jefe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_great_nacista_revolution
+		}
+		x = 80
+		y = 1
+
+	}
+	focus = {
+		id = CHL_expand_la_jota
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_la_mano_del_jefe
+		}
+		prerequisite = {
+			focus = CHL_deter_opposition
+		}
+		x = 78
+		y = 2
+
+	}
+	focus = {
+		id = CHL_reform_the_republic
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_expand_la_jota
+		}
+		prerequisite = {
+			focus = CHL_deter_opposition
+		}
+		x = 76
+		y = 3
+
+	}
+	focus = {
+		id = CHL_national_communalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_the_great_nacista_revolution
+		}
+		x = 84
+		y = 1
+
+	}
+	focus = {
+		id = CHL_establish_state_sponsored_institutions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_la_mano_del_jefe
+		}
+		prerequisite = {
+			focus = CHL_national_communalism
+		}
+		x = 82
+		y = 2
+
+	}
+	focus = {
+		id = CHL_proclaim_the_socialist_vanguard
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_expand_la_jota
+		}
+		prerequisite = {
+			focus = CHL_establish_state_sponsored_institutions
+		}
+		x = 80
+		y = 3
+
+	}
+	focus = {
+		id = CHL_expand_tariffs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_privatize_railroads
+		}
+		prerequisite = {
+			focus = CHL_initiate_tax_cuts
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = CHL_subsidize_businesses
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_deregulate_commerce
+		}
+		prerequisite = {
+			focus = CHL_expand_tariffs
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = CHL_initiate_tax_cuts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_chilean_protectionism
+		}
+		x = 16
+		y = 11
+
+	}
+	focus = {
+		id = CHL_open_markets_to_foreign_investors
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_cut_pensions
+		}
+		prerequisite = {
+			focus = CHL_expand_tariffs
+		}
+		x = 15
+		y = 13
+
+	}
+	focus = {
+		id = CHL_cut_pensions
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_initiate_tax_cuts
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = CHL_a_slow_but_steady_start
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_national_education_reform
+			focus = CHL_private_research_subsidation
+		}
+		x = 9
+		y = 15
+
+	}
+	focus = {
+		id = CHL_establish_the_ministry_of_economics
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_strengthen_unions
+		}
+		prerequisite = {
+			focus = CHL_nationalize_railways
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = CHL_state_owned_businesses
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_encourage_public_construction
+		}
+		prerequisite = {
+			focus = CHL_establish_corfo
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = CHL_control_prices
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_establish_the_ministry_of_economics
+		}
+		prerequisite = {
+			focus = CHL_establish_corfo
+		}
+		x = 6
+		y = 13
+
+	}
+	focus = {
+		id = CHL_encourage_public_construction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_implement_a_progressive_tax
+		}
+		x = 1
+		y = 12
+
+	}
+	focus = {
+		id = CHL_national_education_reform
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_control_prices
+		}
+		prerequisite = {
+			focus = CHL_state_owned_businesses
+		}
+		x = 5
+		y = 14
+
+	}
+	focus = {
+		id = CHL_private_research_subsidation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_subsidize_businesses
+		}
+		prerequisite = {
+			focus = CHL_open_markets_to_foreign_investors
+		}
+		x = 13
+		y = 14
+
+	}
+	focus = {
+		id = CHL_a_truly_stable_paradise
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_a_truly_loyal_army
+		}
+		prerequisite = {
+			focus = CHL_promote_the_new_chilean_worker
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = CHL_deport_political_opponents
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_invite_foreign_economists
+		}
+		prerequisite = {
+			focus = CHL_initiate_a_self_coup
+		}
+		x = 35
+		y = 5
+
+	}
+	focus = {
+		id = CHL_creole_nationalist_revivalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_proclaim_the_socialist_vanguard
+		}
+		prerequisite = {
+			focus = CHL_commit_to_societal_needs
+		}
+		prerequisite = {
+			focus = CHL_reform_the_republic
+		}
+		x = 80
+		y = 4
+
+	}
+	focus = {
+		id = CHL_commit_to_societal_needs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_national_communalism
+		}
+		prerequisite = {
+			focus = CHL_establish_state_sponsored_institutions
+		}
+		x = 84
+		y = 3
+
+	}
+	focus = {
+		id = CHL_increase_military_spending
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_increase_famae_subsidization
+		}
+		x = 24
+		y = 9
+
+	}
+	focus = {
+		id = CHL_reinforce_chilean_naval_hegemony
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = CHL_expand_the_valpa_docks
+		}
+		prerequisite = {
+			focus = CHL_chilean_naval_tradition
+		}
+		x = 44
+		y = 8
+
+	}
+}
